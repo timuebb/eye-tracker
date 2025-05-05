@@ -12,7 +12,7 @@ LABEL_FILE = os.path.join(SAVE_DIR, "labels.csv")
 os.makedirs(IMG_DIR, exist_ok=True)
 
 # Webcam starten
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 screen_w, screen_h = 1920, 1080  # Bildschirmauflösung (anpassen!)
 num_samples = 100  # Anzahl der Datenpunkte
 
