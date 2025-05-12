@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 import cv2
+import pyautogui
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
@@ -13,7 +14,7 @@ LABELS_FILE = "eye_tracking_data/labels_cropped.csv"
 IMG_SIZE = (64, 64)
 EPOCHS = 50
 BATCH_SIZE = 16
-SCREEN_W, SCREEN_H = 2560, 1600  # für Normalisierung
+SCREEN_W, SCREEN_H = pyautogui.size()
 
 # CSV laden
 df = pd.read_csv(LABELS_FILE)

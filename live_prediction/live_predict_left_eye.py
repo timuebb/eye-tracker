@@ -1,6 +1,7 @@
 import cv2
 import mediapipe as mp
 import numpy as np
+import pyautogui
 import tensorflow as tf
 
 # Modell laden (Single-Eye-Modell, z. B. eye_tracking_model_left.keras)
@@ -18,7 +19,8 @@ LEFT_EYE = [33, 133]
 IMG_SIZE = (64, 64)
 
 # Anzeigegröße entspricht direkt der Trainingsgröße
-DISPLAY_W, DISPLAY_H = 2560, 1600
+DISPLAY_W, DISPLAY_H = pyautogui.size()
+
 WINDOW_NAME = "Vorhergesagter Blickpunkt (linkes Auge)"
 
 

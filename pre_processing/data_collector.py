@@ -2,8 +2,9 @@ import cv2
 import numpy as np
 import os
 import time
+import pyautogui
 import mediapipe as mp
-from pre_processing.eye_utils import extract_eye_from_landmarks, estimate_head_pose
+from utils.eye_utils import extract_eye_from_landmarks, estimate_head_pose
 
 SAVE_DIR = "eye_tracking_data"
 IMG_DIR = os.path.join(SAVE_DIR, "eyes")
@@ -11,12 +12,13 @@ LABEL_FILE = os.path.join(SAVE_DIR, "labels_cropped.csv")
 os.makedirs(IMG_DIR, exist_ok=True)
 
 cap = cv2.VideoCapture(1)
-screen_w, screen_h = 2560, 1600
+SCREEN_W, SCREEN_H = pyautogui.size()
 samples_per_point = 30
 IMG_SIZE = (64, 64)
 steps = np.linspace(0.05, 0.95, 5)
 raster = [(x, y) for y in steps for x in steps]
 
+# Bisherige Bildnummern analysieren
 existing_images = [f for f in os.listdir(IMG_DIR) if f.endswith(".png")]
 img_id = (
     max(
@@ -34,6 +36,7 @@ mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(
     static_image_mode=False, max_num_faces=1, refine_landmarks=True
 )
+
 LEFT_EYE = [33, 133, 160, 159, 158, 157, 173, 153]
 RIGHT_EYE = [362, 263, 387, 386, 385, 384, 398, 382]
 
@@ -85,37 +88,41 @@ with open(LABEL_FILE, mode) as f:
 
             if results.multi_face_landmarks:
                 landmarks = results.multi_face_landmarks[0].landmark
+                pose = estimate_head_pose(landmarks, frame.shape)
 
-                head_pose = estimate_head_pose(landmarks, frame.shape)
-                if head_pose is None:
+                if pose is None:
                     print("⚠️ Kopfpose nicht berechenbar")
                     continue
-                yaw, pitch, roll = head_pose
+
+                yaw, pitch, roll = pose
+                saved = False
 
                 left = extract_eye_from_landmarks(frame, landmarks, LEFT_EYE, IMG_SIZE)
-                right = extract_eye_from_landmarks(
-                    frame, landmarks, RIGHT_EYE, IMG_SIZE
-                )
-
                 if left is not None:
                     fname = f"left_eye_{img_id:04d}.png"
                     cv2.imwrite(
                         os.path.join(IMG_DIR, fname), (left * 255).astype("uint8")
                     )
                     f.write(
-                        f"{fname},{rx},{ry},left,{yaw:.2f},{pitch:.2f},{roll:.2f}\n"
+                        f"{fname},{rx:.6f},{ry:.6f},left,{yaw:.6f},{pitch:.6f},{roll:.6f}\n"
                     )
+                    saved = True
 
+                right = extract_eye_from_landmarks(
+                    frame, landmarks, RIGHT_EYE, IMG_SIZE
+                )
                 if right is not None:
                     fname = f"right_eye_{img_id:04d}.png"
                     cv2.imwrite(
                         os.path.join(IMG_DIR, fname), (right * 255).astype("uint8")
                     )
                     f.write(
-                        f"{fname},{rx},{ry},right,{yaw:.2f},{pitch:.2f},{roll:.2f}\n"
+                        f"{fname},{rx:.6f},{ry:.6f},right,{yaw:.6f},{pitch:.6f},{roll:.6f}\n"
                     )
+                    saved = True
 
-                img_id += 1
+                if saved:
+                    img_id += 1
 
             cv2.waitKey(1)
             time.sleep(0.15)

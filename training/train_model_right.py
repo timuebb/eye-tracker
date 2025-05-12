@@ -17,7 +17,7 @@ EPOCHS = 50
 BATCH_SIZE = 16
 NUM_FOLDS = 5
 USE_CROSS_VALIDATION = False
-USE_HEAD_POSE = False  # ← Aktivieren wenn yaw/pitch/roll vorhanden
+USE_HEAD_POSE = True  # ← Aktivieren wenn yaw/pitch/roll vorhanden
 
 # Daten laden
 df = pd.read_csv(LABELS_FILE)

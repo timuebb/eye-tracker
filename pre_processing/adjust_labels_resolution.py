@@ -1,8 +1,10 @@
 import pandas as pd
+import pyautogui
 
 # Original- und Zielauflösung
 OLD_W, OLD_H = 1920, 1080
-NEW_W, NEW_H = 2560, 1600
+NEW_W, NEW_H = pyautogui.size()
+
 
 # Pfade
 LABELS_IN = "eye_tracking_data/labels.csv"

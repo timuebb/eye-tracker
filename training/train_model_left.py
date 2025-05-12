@@ -17,7 +17,7 @@ EPOCHS = 50
 BATCH_SIZE = 16
 FOLDS = 5
 USE_CROSS_VALIDATION = False
-USE_HEAD_POSE = False  # ← Aktiviere bei vorhandenen yaw/pitch/roll-Spalten
+USE_HEAD_POSE = True  # ← Aktiviere bei vorhandenen yaw/pitch/roll-Spalten
 
 # Daten einlesen und filtern
 df = pd.read_csv(LABELS_FILE)

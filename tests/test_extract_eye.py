@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 import numpy as np
-from pre_processing.eye_utils import extract_eye_from_landmarks
+from utils.eye_utils import extract_eye_from_landmarks
 
 # Mediapipe Setup
 mp_face_mesh = mp.solutions.face_mesh
@@ -10,7 +10,7 @@ face_mesh = mp_face_mesh.FaceMesh(
 )
 
 # Kamera starten
-cap = cv2.VideoCapture(1)  # ggf. 1, wenn du mehrere Kameras hast
+cap = cv2.VideoCapture(0)  # ggf. 1, wenn du mehrere Kameras hast
 
 # Auge-Landmark-Indizes
 LEFT_EYE = [33, 133]

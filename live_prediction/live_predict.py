@@ -4,7 +4,7 @@ import mediapipe as mp
 import numpy as np
 import tensorflow as tf
 import pyautogui
-from pre_processing.eye_utils import extract_eye_from_landmarks
+from utils.eye_utils import extract_eye_from_landmarks
 
 # Konfiguration
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
