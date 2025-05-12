@@ -3,7 +3,7 @@ import numpy as np
 import os
 import time
 import mediapipe as mp
-from eye_utils import extract_eye_from_landmarks
+from pre_processing.eye_utils import extract_eye_from_landmarks, estimate_head_pose
 
 SAVE_DIR = "eye_tracking_data"
 IMG_DIR = os.path.join(SAVE_DIR, "eyes")
@@ -31,7 +31,9 @@ img_id = (
 )
 
 mp_face_mesh = mp.solutions.face_mesh
-face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1)
+face_mesh = mp_face_mesh.FaceMesh(
+    static_image_mode=False, max_num_faces=1, refine_landmarks=True
+)
 LEFT_EYE = [33, 133, 160, 159, 158, 157, 173, 153]
 RIGHT_EYE = [362, 263, 387, 386, 385, 384, 398, 382]
 
@@ -58,7 +60,7 @@ file_exists = os.path.isfile(LABEL_FILE)
 mode = "a" if file_exists else "w"
 with open(LABEL_FILE, mode) as f:
     if not file_exists:
-        f.write("filename,x,y,eye\n")
+        f.write("filename,x,y,eye,yaw,pitch,roll\n")
 
     for rx, ry in raster:
         x = int(screen_w * rx)
@@ -83,6 +85,13 @@ with open(LABEL_FILE, mode) as f:
 
             if results.multi_face_landmarks:
                 landmarks = results.multi_face_landmarks[0].landmark
+
+                head_pose = estimate_head_pose(landmarks, frame.shape)
+                if head_pose is None:
+                    print("⚠️ Kopfpose nicht berechenbar")
+                    continue
+                yaw, pitch, roll = head_pose
+
                 left = extract_eye_from_landmarks(frame, landmarks, LEFT_EYE, IMG_SIZE)
                 right = extract_eye_from_landmarks(
                     frame, landmarks, RIGHT_EYE, IMG_SIZE
@@ -93,16 +102,18 @@ with open(LABEL_FILE, mode) as f:
                     cv2.imwrite(
                         os.path.join(IMG_DIR, fname), (left * 255).astype("uint8")
                     )
-                    f.write(f"{fname},{rx},{ry},left\n")
-                    # cv2.imshow("left", left)  # Debug
+                    f.write(
+                        f"{fname},{rx},{ry},left,{yaw:.2f},{pitch:.2f},{roll:.2f}\n"
+                    )
 
                 if right is not None:
                     fname = f"right_eye_{img_id:04d}.png"
                     cv2.imwrite(
                         os.path.join(IMG_DIR, fname), (right * 255).astype("uint8")
                     )
-                    f.write(f"{fname},{rx},{ry},right\n")
-                    # cv2.imshow("right", right)  # Debug
+                    f.write(
+                        f"{fname},{rx},{ry},right,{yaw:.2f},{pitch:.2f},{roll:.2f}\n"
+                    )
 
                 img_id += 1
 

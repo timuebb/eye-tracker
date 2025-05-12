@@ -6,16 +6,16 @@ import tensorflow as tf
 import pyautogui
 from pre_processing.eye_utils import extract_eye_from_landmarks
 
+# Konfiguration
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 model_dual = tf.keras.models.load_model(
-    os.path.join(BASE_DIR, "eye_tracking_model_dual_relative.keras")
+    os.path.join(BASE_DIR, "models", "fold1_dual_model.keras")
 )
 model_left = tf.keras.models.load_model(
-    os.path.join(BASE_DIR, "eye_tracking_model_left_relative.keras")
+    os.path.join(BASE_DIR, "models", "eye_tracking_model_left_relative.keras")
 )
 model_right = tf.keras.models.load_model(
-    os.path.join(BASE_DIR, "eye_tracking_model_right_relative.keras")
+    os.path.join(BASE_DIR, "models", "eye_tracking_model_right_relative.keras")
 )
 
 # Mediapipe vorbereiten
@@ -29,8 +29,9 @@ cap = cv2.VideoCapture(1)
 DISPLAY_W, DISPLAY_H = pyautogui.size()
 WINDOW_NAME = "Live-Prediction: dynamisches Auge"
 
-LEFT_EYE = [33, 133]
-RIGHT_EYE = [362, 263]
+# Vollständige Augenumrandung für robusteren Zuschnitt
+LEFT_EYE = [33, 133, 160, 159, 158, 157, 173, 153]
+RIGHT_EYE = [362, 263, 387, 386, 385, 384, 398, 382]
 IMG_SIZE = (64, 64)
 
 # Optional: letzte Vorhersage zur Glättung
@@ -61,6 +62,7 @@ while True:
         landmarks = results.multi_face_landmarks[0].landmark
         face_box = get_face_box(landmarks, frame.shape)
 
+        # Augen extrahieren (auf Gesichtsausschnitt begrenzt)
         left_eye = extract_eye_from_landmarks(
             frame, landmarks, LEFT_EYE, IMG_SIZE, face_box
         )
@@ -89,7 +91,7 @@ while True:
             predictions.append(("dual", pred_dual))
 
         if predictions:
-            # Optional: einfaches Auswahlkriterium – z. B. Mittelwert der Vorhersageabweichung zur letzten Prediction
+            # Bestes Modell nach Distanz zur letzten Vorhersage auswählen
             best_name, best_pred = predictions[0]
             if last_prediction is not None:
                 min_dist = np.inf

@@ -3,7 +3,7 @@ import mediapipe as mp
 import os
 import pandas as pd
 import numpy as np
-from pre_processing.eye_utils import extract_eye_from_landmarks
+from pre_processing.eye_utils import extract_eye_from_landmarks, estimate_head_pose
 
 # Konfiguration
 IMG_DIR = "eye_tracking_data/images"  # ursprüngliche Bilder
@@ -56,6 +56,14 @@ for idx, row in df.iterrows():
     landmarks = results.multi_face_landmarks[0].landmark
     h, w, _ = image.shape
 
+    # Kopfpose berechnen
+    pose = estimate_head_pose(landmarks, image.shape)
+    if pose is None:
+        print(f"⚠️ Kopfpose konnte nicht berechnet werden: {filename}")
+        continue
+
+    yaw, pitch, roll = pose
+
     # Gesichtsausschnitt berechnen
     x_min = int(min(l.x for l in landmarks) * w)
     y_min = int(min(l.y for l in landmarks) * h)
@@ -87,11 +95,11 @@ for idx, row in df.iterrows():
         cv2.imwrite(os.path.join(SAVE_DIR, out_filename), eye_img)
         x_norm = float(x) / SCREEN_W
         y_norm = float(y) / SCREEN_H
-        new_rows.append([out_filename, x_norm, y_norm, eye_label])
+        new_rows.append([out_filename, x_norm, y_norm, eye_label, yaw, pitch, roll])
 
 # Neue CSV schreiben
-pd.DataFrame(new_rows, columns=["filename", "x", "y", "eye"]).to_csv(
-    LABELS_OUT, index=False, float_format="%.6f"
-)
+pd.DataFrame(
+    new_rows, columns=["filename", "x", "y", "eye", "yaw", "pitch", "roll"]
+).to_csv(LABELS_OUT, index=False, float_format="%.6f")
 
 print(f"✅ Verarbeitung abgeschlossen. Bilder in {SAVE_DIR}, Labels in {LABELS_OUT}")

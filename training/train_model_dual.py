@@ -17,11 +17,21 @@ EPOCHS = 50
 BATCH_SIZE = 16
 NUM_FOLDS = 5
 USE_CROSS_VALIDATION = False
+USE_HEAD_POSE = False  # ← Aktivieren für zusätzliche Input-Features yaw, pitch, roll
 
-# CSV laden & Zielwerte normalisieren
+# CSV laden
 df = pd.read_csv(LABELS_FILE)
 df["x"] = df["x"].astype(float)
 df["y"] = df["y"].astype(float)
+
+# Kopfpose-Features einlesen, falls vorhanden
+if USE_HEAD_POSE and all(col in df.columns for col in ["yaw", "pitch", "roll"]):
+    df["yaw"] = df["yaw"].astype(float)
+    df["pitch"] = df["pitch"].astype(float)
+    df["roll"] = df["roll"].astype(float)
+    use_pose = True
+else:
+    use_pose = False
 
 # Paare aus linkem + rechtem Auge bilden
 pairs = []
@@ -46,7 +56,7 @@ def load_img(filename):
 
 
 # Daten vorbereiten
-left_images, right_images, labels = [], [], []
+left_images, right_images, labels, pose_features = [], [], [], []
 for left_row, right_row in pairs:
     left_img = load_img(left_row["filename"])
     right_img = load_img(right_row["filename"])
@@ -55,19 +65,34 @@ for left_row, right_row in pairs:
     left_images.append(left_img)
     right_images.append(right_img)
     labels.append([left_row["x"], left_row["y"]])
+    if use_pose:
+        pose_features.append(
+            [
+                (left_row["yaw"] + right_row["yaw"]) / 2,
+                (left_row["pitch"] + right_row["pitch"]) / 2,
+                (left_row["roll"] + right_row["roll"]) / 2,
+            ]
+        )
 
 X_left = np.expand_dims(np.array(left_images), axis=-1)
 X_right = np.expand_dims(np.array(right_images), axis=-1)
 y = np.array(labels)
-X_left, X_right, y = shuffle(X_left, X_right, y, random_state=42)
+
+if use_pose:
+    X_pose = np.array(pose_features)
+    X_left, X_right, X_pose, y = shuffle(X_left, X_right, X_pose, y, random_state=42)
+else:
+    X_left, X_right, y = shuffle(X_left, X_right, y, random_state=42)
 
 
+# Augmentierung
 def augment(x):
     x = tf.keras.layers.RandomRotation(0.05)(x)
     x = tf.keras.layers.RandomZoom(0.05)(x)
     return x
 
 
+# Modellaufbau
 def build_model():
     he_init = initializers.HeUniform()
 
@@ -105,6 +130,7 @@ def build_model():
             kernel_initializer=he_init,
         )(x)
         x = tf.keras.layers.BatchNormalization()(x)
+
         x = tf.keras.layers.Conv2D(
             256,
             3,
@@ -114,8 +140,7 @@ def build_model():
             kernel_initializer=he_init,
         )(x)
         x = tf.keras.layers.BatchNormalization()(x)
-        x = tf.keras.layers.GlobalAveragePooling2D()(x)
-        return x
+        return tf.keras.layers.GlobalAveragePooling2D()(x)
 
     input_left = tf.keras.Input(shape=(64, 64, 1), name="left_eye")
     input_right = tf.keras.Input(shape=(64, 64, 1), name="right_eye")
@@ -123,6 +148,14 @@ def build_model():
     encoded_right = cnn_branch(input_right)
 
     combined = tf.keras.layers.Concatenate()([encoded_left, encoded_right])
+
+    if use_pose:
+        input_pose = tf.keras.Input(shape=(3,), name="head_pose")
+        combined = tf.keras.layers.Concatenate()([combined, input_pose])
+        inputs = [input_left, input_right, input_pose]
+    else:
+        inputs = [input_left, input_right]
+
     x = tf.keras.layers.Dense(256, activation="relu", kernel_initializer=he_init)(
         combined
     )
@@ -131,21 +164,24 @@ def build_model():
     x = tf.keras.layers.Dropout(0.4)(x)
     output = tf.keras.layers.Dense(2, activation="linear")(x)
 
-    model = tf.keras.Model(inputs=[input_left, input_right], outputs=output)
+    model = tf.keras.Model(inputs=inputs, outputs=output)
     model.compile(
-        optimizer=tf.keras.optimizers.Adam(learning_rate=0.0005),
-        loss="mse",
-        metrics=["mae"],
+        optimizer=tf.keras.optimizers.Adam(0.0005), loss="mse", metrics=["mae"]
     )
     return model
 
 
+# Training
 if USE_CROSS_VALIDATION:
     kf = KFold(n_splits=NUM_FOLDS, shuffle=True, random_state=42)
     for fold, (train_idx, val_idx) in enumerate(kf.split(X_left), start=1):
         print(f"\n📂 Fold {fold}/{NUM_FOLDS}")
-        Xl_train, Xl_val = X_left[train_idx], X_left[val_idx]
-        Xr_train, Xr_val = X_right[train_idx], X_right[val_idx]
+        inputs_train = {"left_eye": X_left[train_idx], "right_eye": X_right[train_idx]}
+        inputs_val = {"left_eye": X_left[val_idx], "right_eye": X_right[val_idx]}
+        if use_pose:
+            inputs_train["head_pose"] = X_pose[train_idx]
+            inputs_val["head_pose"] = X_pose[val_idx]
+
         y_train, y_val = y[train_idx], y[val_idx]
 
         model = build_model()
@@ -165,16 +201,16 @@ if USE_CROSS_VALIDATION:
         ]
 
         model.fit(
-            {"left_eye": Xl_train, "right_eye": Xr_train},
+            inputs_train,
             y_train,
-            validation_data=({"left_eye": Xl_val, "right_eye": Xr_val}, y_val),
+            validation_data=(inputs_val, y_val),
             epochs=EPOCHS,
             batch_size=BATCH_SIZE,
             callbacks=callbacks,
             verbose=1,
         )
 
-        preds = model.predict({"left_eye": Xl_val, "right_eye": Xr_val})
+        preds = model.predict(inputs_val)
         plt.figure(figsize=(8, 8))
         plt.scatter(y_val[:, 0], preds[:, 0], alpha=0.5, label="x")
         plt.scatter(y_val[:, 1], preds[:, 1], alpha=0.5, label="y")
@@ -185,15 +221,22 @@ if USE_CROSS_VALIDATION:
         plt.legend()
         plt.grid(True)
         plt.savefig(f"logs/fold{fold}_scatter.png")
-
-    print(
-        "\n✅ Cross-Validation abgeschlossen. Modelle unter models/*.keras gespeichert."
-    )
 else:
     print("\n🚀 Einzeltraining (kein Fold)")
-    Xl_train, Xl_val, Xr_train, Xr_val, y_train, y_val = train_test_split(
-        X_left, X_right, y, test_size=0.2, random_state=42
-    )
+    if use_pose:
+        Xl_train, Xl_val, Xr_train, Xr_val, Xp_train, Xp_val, y_train, y_val = (
+            train_test_split(X_left, X_right, X_pose, y, test_size=0.2, random_state=42)
+        )
+    else:
+        Xl_train, Xl_val, Xr_train, Xr_val, y_train, y_val = train_test_split(
+            X_left, X_right, y, test_size=0.2, random_state=42
+        )
+
+    inputs_train = {"left_eye": Xl_train, "right_eye": Xr_train}
+    inputs_val = {"left_eye": Xl_val, "right_eye": Xr_val}
+    if use_pose:
+        inputs_train["head_pose"] = Xp_train
+        inputs_val["head_pose"] = Xp_val
 
     model = build_model()
     os.makedirs("models", exist_ok=True)
@@ -212,16 +255,16 @@ else:
     ]
 
     model.fit(
-        {"left_eye": Xl_train, "right_eye": Xr_train},
+        inputs_train,
         y_train,
-        validation_data=({"left_eye": Xl_val, "right_eye": Xr_val}, y_val),
+        validation_data=(inputs_val, y_val),
         epochs=EPOCHS,
         batch_size=BATCH_SIZE,
         callbacks=callbacks,
         verbose=1,
     )
 
-    preds = model.predict({"left_eye": Xl_val, "right_eye": Xr_val})
+    preds = model.predict(inputs_val)
     plt.figure(figsize=(8, 8))
     plt.scatter(y_val[:, 0], preds[:, 0], alpha=0.5, label="x")
     plt.scatter(y_val[:, 1], preds[:, 1], alpha=0.5, label="y")

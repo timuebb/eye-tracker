@@ -25,7 +25,7 @@ face_mesh = mp_face_mesh.FaceMesh(
     static_image_mode=False, max_num_faces=1, refine_landmarks=True
 )
 
-# Optional: Glättung der Vorhersagen
+# Vorhersageglättung
 last_prediction = None
 
 
@@ -54,10 +54,10 @@ while True:
         face_box = get_face_box(landmarks, frame.shape)
 
         left_eye = extract_eye_from_landmarks(
-            frame, landmarks, LEFT_EYE, IMG_SIZE, face_box
+            frame, landmarks, LEFT_EYE, IMG_SIZE, face_box=face_box
         )
         right_eye = extract_eye_from_landmarks(
-            frame, landmarks, RIGHT_EYE, IMG_SIZE, face_box
+            frame, landmarks, RIGHT_EYE, IMG_SIZE, face_box=face_box
         )
 
         if left_eye is not None and right_eye is not None:
@@ -89,7 +89,7 @@ while True:
             )
             cv2.imshow(WINDOW_NAME, display)
 
-    if cv2.waitKey(1) & 0xFF == 27:
+    if cv2.waitKey(1) & 0xFF == 27:  # ESC-Taste
         break
 
 cap.release()
