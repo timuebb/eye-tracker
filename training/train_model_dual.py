@@ -81,10 +81,21 @@ X_right = np.expand_dims(np.array(right_images), axis=-1)
 y = np.array(labels)
 
 if use_pose:
-    X_pose = np.array(pose_features)
+    X_pose = np.array(pose_features, dtype="float32")
+
+    # 🔁 Min-Max-Normalisierung (dynamisch anhand der Trainingsdaten)
+    pose_min = X_pose.min(axis=0)
+    pose_max = X_pose.max(axis=0)
+    pose_range = pose_max - pose_min
+    pose_range[pose_range == 0] = 1.0  # Division durch 0 verhindern
+
+    X_pose = 2 * (X_pose - pose_min) / pose_range - 1  # Skaliert auf [-1, 1]
+
+    print("🧮 Min-Max-Normalisierung:")
+    for name, pmin, pmax in zip(pose_cols, pose_min, pose_max):
+        print(f"  {name:5s}: min = {pmin:.2f}, max = {pmax:.2f}")
+
     X_left, X_right, X_pose, y = shuffle(X_left, X_right, X_pose, y, random_state=42)
-else:
-    X_left, X_right, y = shuffle(X_left, X_right, y, random_state=42)
 
 
 # Augmentierung (bleibt gleich)
