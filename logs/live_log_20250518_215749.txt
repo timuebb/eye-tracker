@@ -1,0 +1,2262 @@
+[21:57:49] Modell geladen: /Users/timadmin/Dokumente/AppsProgramming/eye-tracker-test-data/models/fold1_dual_model.keras
+[21:57:49] Kopfpose erwartet: False
+[21:57:49] Neue Displaygröße erkannt: 1440x900
+[21:57:50] 🔍 DEBUG: normiert = (0.346, 0.443)
+[21:57:50]            x_scaled = 498, y_scaled = 399
+[21:57:50]        y_inverted_scaled = 500
+[21:57:50] 🔍 DEBUG: normiert = (0.272, 0.383)
+[21:57:50]            x_scaled = 391, y_scaled = 344
+[21:57:50]        y_inverted_scaled = 555
+[21:57:50] 🔍 DEBUG: normiert = (0.231, 0.423)
+[21:57:50]            x_scaled = 332, y_scaled = 380
+[21:57:50]        y_inverted_scaled = 519
+[21:57:50] 🔍 DEBUG: normiert = (0.218, 0.512)
+[21:57:50]            x_scaled = 314, y_scaled = 460
+[21:57:50]        y_inverted_scaled = 439
+[21:57:50] 🔍 DEBUG: normiert = (0.223, 0.552)
+[21:57:50]            x_scaled = 321, y_scaled = 496
+[21:57:50]        y_inverted_scaled = 403
+[21:57:50] 🔍 DEBUG: normiert = (0.206, 0.558)
+[21:57:50]            x_scaled = 296, y_scaled = 502
+[21:57:50]        y_inverted_scaled = 397
+[21:57:50] 🔍 DEBUG: normiert = (0.192, 0.527)
+[21:57:50]            x_scaled = 277, y_scaled = 474
+[21:57:50]        y_inverted_scaled = 425
+[21:57:50] 🔍 DEBUG: normiert = (0.167, 0.421)
+[21:57:50]            x_scaled = 240, y_scaled = 379
+[21:57:50]        y_inverted_scaled = 520
+[21:57:50] 🔍 DEBUG: normiert = (0.162, 0.353)
+[21:57:50]            x_scaled = 233, y_scaled = 317
+[21:57:50]        y_inverted_scaled = 582
+[21:57:50] 🔍 DEBUG: normiert = (0.172, 0.307)
+[21:57:50]            x_scaled = 247, y_scaled = 276
+[21:57:50]        y_inverted_scaled = 623
+[21:57:50] 🔍 DEBUG: normiert = (0.159, 0.304)
+[21:57:50]            x_scaled = 229, y_scaled = 273
+[21:57:50]        y_inverted_scaled = 626
+[21:57:51] 🔍 DEBUG: normiert = (0.160, 0.301)
+[21:57:51]            x_scaled = 230, y_scaled = 270
+[21:57:51]        y_inverted_scaled = 629
+[21:57:51] 🔍 DEBUG: normiert = (0.154, 0.301)
+[21:57:51]            x_scaled = 221, y_scaled = 270
+[21:57:51]        y_inverted_scaled = 629
+[21:57:51] 🔍 DEBUG: normiert = (0.152, 0.296)
+[21:57:51]            x_scaled = 219, y_scaled = 266
+[21:57:51]        y_inverted_scaled = 633
+[21:57:51] 🔍 DEBUG: normiert = (0.162, 0.286)
+[21:57:51]            x_scaled = 232, y_scaled = 257
+[21:57:51]        y_inverted_scaled = 642
+[21:57:51] 🔍 DEBUG: normiert = (0.199, 0.359)
+[21:57:51]            x_scaled = 286, y_scaled = 323
+[21:57:51]        y_inverted_scaled = 576
+[21:57:51] 🔍 DEBUG: normiert = (0.233, 0.391)
+[21:57:51]            x_scaled = 335, y_scaled = 351
+[21:57:51]        y_inverted_scaled = 548
+[21:57:51] 🔍 DEBUG: normiert = (0.232, 0.392)
+[21:57:51]            x_scaled = 333, y_scaled = 353
+[21:57:51]        y_inverted_scaled = 546
+[21:57:51] 🔍 DEBUG: normiert = (0.244, 0.426)
+[21:57:51]            x_scaled = 351, y_scaled = 383
+[21:57:51]        y_inverted_scaled = 516
+[21:57:51] 🔍 DEBUG: normiert = (0.240, 0.439)
+[21:57:51]            x_scaled = 346, y_scaled = 395
+[21:57:51]        y_inverted_scaled = 504
+[21:57:51] 🔍 DEBUG: normiert = (0.236, 0.441)
+[21:57:51]            x_scaled = 339, y_scaled = 396
+[21:57:51]        y_inverted_scaled = 503
+[21:57:51] 🔍 DEBUG: normiert = (0.242, 0.432)
+[21:57:51]            x_scaled = 349, y_scaled = 389
+[21:57:51]        y_inverted_scaled = 510
+[21:57:51] 🔍 DEBUG: normiert = (0.243, 0.424)
+[21:57:51]            x_scaled = 349, y_scaled = 381
+[21:57:51]        y_inverted_scaled = 518
+[21:57:51] 🔍 DEBUG: normiert = (0.240, 0.422)
+[21:57:51]            x_scaled = 345, y_scaled = 379
+[21:57:51]        y_inverted_scaled = 520
+[21:57:51] 🔍 DEBUG: normiert = (0.252, 0.440)
+[21:57:51]            x_scaled = 362, y_scaled = 395
+[21:57:51]        y_inverted_scaled = 504
+[21:57:51] 🔍 DEBUG: normiert = (0.247, 0.440)
+[21:57:51]            x_scaled = 356, y_scaled = 395
+[21:57:51]        y_inverted_scaled = 504
+[21:57:52] 🔍 DEBUG: normiert = (0.245, 0.440)
+[21:57:52]            x_scaled = 352, y_scaled = 395
+[21:57:52]        y_inverted_scaled = 504
+[21:57:52] 🔍 DEBUG: normiert = (0.246, 0.446)
+[21:57:52]            x_scaled = 354, y_scaled = 401
+[21:57:52]        y_inverted_scaled = 498
+[21:57:52] 🔍 DEBUG: normiert = (0.249, 0.429)
+[21:57:52]            x_scaled = 358, y_scaled = 385
+[21:57:52]        y_inverted_scaled = 514
+[21:57:52] 🔍 DEBUG: normiert = (0.249, 0.439)
+[21:57:52]            x_scaled = 359, y_scaled = 395
+[21:57:52]        y_inverted_scaled = 504
+[21:57:52] 🔍 DEBUG: normiert = (0.245, 0.415)
+[21:57:52]            x_scaled = 352, y_scaled = 373
+[21:57:52]        y_inverted_scaled = 526
+[21:57:52] 🔍 DEBUG: normiert = (0.240, 0.441)
+[21:57:52]            x_scaled = 346, y_scaled = 396
+[21:57:52]        y_inverted_scaled = 503
+[21:57:52] 🔍 DEBUG: normiert = (0.249, 0.453)
+[21:57:52]            x_scaled = 358, y_scaled = 407
+[21:57:52]        y_inverted_scaled = 492
+[21:57:52] 🔍 DEBUG: normiert = (0.237, 0.466)
+[21:57:52]            x_scaled = 341, y_scaled = 419
+[21:57:52]        y_inverted_scaled = 480
+[21:57:52] 🔍 DEBUG: normiert = (0.243, 0.458)
+[21:57:52]            x_scaled = 349, y_scaled = 412
+[21:57:52]        y_inverted_scaled = 487
+[21:57:52] 🔍 DEBUG: normiert = (0.240, 0.444)
+[21:57:52]            x_scaled = 346, y_scaled = 399
+[21:57:52]        y_inverted_scaled = 500
+[21:57:52] 🔍 DEBUG: normiert = (0.244, 0.431)
+[21:57:52]            x_scaled = 351, y_scaled = 388
+[21:57:52]        y_inverted_scaled = 511
+[21:57:53] 🔍 DEBUG: normiert = (0.334, 0.348)
+[21:57:53]            x_scaled = 480, y_scaled = 313
+[21:57:53]        y_inverted_scaled = 586
+[21:57:53] 🔍 DEBUG: normiert = (0.349, 0.310)
+[21:57:53]            x_scaled = 502, y_scaled = 279
+[21:57:53]        y_inverted_scaled = 620
+[21:57:53] 🔍 DEBUG: normiert = (0.359, 0.318)
+[21:57:53]            x_scaled = 517, y_scaled = 286
+[21:57:53]        y_inverted_scaled = 613
+[21:57:53] 🔍 DEBUG: normiert = (0.345, 0.283)
+[21:57:53]            x_scaled = 497, y_scaled = 254
+[21:57:53]        y_inverted_scaled = 645
+[21:57:53] 🔍 DEBUG: normiert = (0.363, 0.311)
+[21:57:53]            x_scaled = 523, y_scaled = 280
+[21:57:53]        y_inverted_scaled = 619
+[21:57:53] 🔍 DEBUG: normiert = (0.383, 0.315)
+[21:57:53]            x_scaled = 551, y_scaled = 283
+[21:57:53]        y_inverted_scaled = 616
+[21:57:53] 🔍 DEBUG: normiert = (0.297, 0.271)
+[21:57:53]            x_scaled = 427, y_scaled = 244
+[21:57:53]        y_inverted_scaled = 655
+[21:57:53] 🔍 DEBUG: normiert = (0.256, 0.250)
+[21:57:53]            x_scaled = 369, y_scaled = 224
+[21:57:53]        y_inverted_scaled = 675
+[21:57:53] 🔍 DEBUG: normiert = (0.264, 0.254)
+[21:57:53]            x_scaled = 379, y_scaled = 228
+[21:57:53]        y_inverted_scaled = 671
+[21:57:54] 🔍 DEBUG: normiert = (0.317, 0.289)
+[21:57:54]            x_scaled = 455, y_scaled = 259
+[21:57:54]        y_inverted_scaled = 640
+[21:57:54] 🔍 DEBUG: normiert = (0.366, 0.340)
+[21:57:54]            x_scaled = 527, y_scaled = 306
+[21:57:54]        y_inverted_scaled = 593
+[21:57:54] 🔍 DEBUG: normiert = (0.368, 0.365)
+[21:57:54]            x_scaled = 529, y_scaled = 328
+[21:57:54]        y_inverted_scaled = 571
+[21:57:54] 🔍 DEBUG: normiert = (0.357, 0.335)
+[21:57:54]            x_scaled = 513, y_scaled = 301
+[21:57:54]        y_inverted_scaled = 598
+[21:57:54] 🔍 DEBUG: normiert = (0.367, 0.337)
+[21:57:54]            x_scaled = 528, y_scaled = 303
+[21:57:54]        y_inverted_scaled = 596
+[21:57:54] 🔍 DEBUG: normiert = (0.354, 0.331)
+[21:57:54]            x_scaled = 509, y_scaled = 298
+[21:57:54]        y_inverted_scaled = 601
+[21:57:54] 🔍 DEBUG: normiert = (0.416, 0.349)
+[21:57:54]            x_scaled = 599, y_scaled = 314
+[21:57:54]        y_inverted_scaled = 585
+[21:57:54] 🔍 DEBUG: normiert = (0.421, 0.372)
+[21:57:54]            x_scaled = 606, y_scaled = 335
+[21:57:54]        y_inverted_scaled = 564
+[21:57:54] 🔍 DEBUG: normiert = (0.438, 0.384)
+[21:57:54]            x_scaled = 630, y_scaled = 345
+[21:57:54]        y_inverted_scaled = 554
+[21:57:54] 🔍 DEBUG: normiert = (0.410, 0.404)
+[21:57:54]            x_scaled = 590, y_scaled = 363
+[21:57:54]        y_inverted_scaled = 536
+[21:57:54] 🔍 DEBUG: normiert = (0.413, 0.416)
+[21:57:54]            x_scaled = 595, y_scaled = 374
+[21:57:54]        y_inverted_scaled = 525
+[21:57:54] 🔍 DEBUG: normiert = (0.448, 0.436)
+[21:57:54]            x_scaled = 644, y_scaled = 392
+[21:57:54]        y_inverted_scaled = 507
+[21:57:54] 🔍 DEBUG: normiert = (0.436, 0.432)
+[21:57:54]            x_scaled = 627, y_scaled = 388
+[21:57:54]        y_inverted_scaled = 511
+[21:57:54] 🔍 DEBUG: normiert = (0.450, 0.400)
+[21:57:54]            x_scaled = 647, y_scaled = 359
+[21:57:54]        y_inverted_scaled = 540
+[21:57:54] 🔍 DEBUG: normiert = (0.453, 0.389)
+[21:57:54]            x_scaled = 651, y_scaled = 349
+[21:57:54]        y_inverted_scaled = 550
+[21:57:55] 🔍 DEBUG: normiert = (0.443, 0.384)
+[21:57:55]            x_scaled = 638, y_scaled = 346
+[21:57:55]        y_inverted_scaled = 553
+[21:57:55] 🔍 DEBUG: normiert = (0.440, 0.382)
+[21:57:55]            x_scaled = 633, y_scaled = 343
+[21:57:55]        y_inverted_scaled = 556
+[21:57:55] 🔍 DEBUG: normiert = (0.444, 0.384)
+[21:57:55]            x_scaled = 639, y_scaled = 345
+[21:57:55]        y_inverted_scaled = 554
+[21:57:55] 🔍 DEBUG: normiert = (0.418, 0.389)
+[21:57:55]            x_scaled = 602, y_scaled = 349
+[21:57:55]        y_inverted_scaled = 550
+[21:57:55] 🔍 DEBUG: normiert = (0.414, 0.398)
+[21:57:55]            x_scaled = 596, y_scaled = 358
+[21:57:55]        y_inverted_scaled = 541
+[21:57:55] 🔍 DEBUG: normiert = (0.411, 0.405)
+[21:57:55]            x_scaled = 591, y_scaled = 364
+[21:57:55]        y_inverted_scaled = 535
+[21:57:55] 🔍 DEBUG: normiert = (0.403, 0.384)
+[21:57:55]            x_scaled = 580, y_scaled = 345
+[21:57:55]        y_inverted_scaled = 554
+[21:57:55] 🔍 DEBUG: normiert = (0.399, 0.364)
+[21:57:55]            x_scaled = 575, y_scaled = 327
+[21:57:55]        y_inverted_scaled = 572
+[21:57:55] 🔍 DEBUG: normiert = (0.372, 0.350)
+[21:57:55]            x_scaled = 535, y_scaled = 314
+[21:57:55]        y_inverted_scaled = 585
+[21:57:55] 🔍 DEBUG: normiert = (0.335, 0.284)
+[21:57:55]            x_scaled = 483, y_scaled = 255
+[21:57:55]        y_inverted_scaled = 644
+[21:57:55] 🔍 DEBUG: normiert = (0.328, 0.266)
+[21:57:55]            x_scaled = 471, y_scaled = 239
+[21:57:55]        y_inverted_scaled = 660
+[21:57:55] 🔍 DEBUG: normiert = (0.288, 0.253)
+[21:57:55]            x_scaled = 415, y_scaled = 227
+[21:57:55]        y_inverted_scaled = 672
+[21:57:55] 🔍 DEBUG: normiert = (0.271, 0.258)
+[21:57:55]            x_scaled = 390, y_scaled = 232
+[21:57:55]        y_inverted_scaled = 667
+[21:57:55] 🔍 DEBUG: normiert = (0.258, 0.275)
+[21:57:55]            x_scaled = 371, y_scaled = 247
+[21:57:55]        y_inverted_scaled = 652
+[21:57:55] 🔍 DEBUG: normiert = (0.254, 0.277)
+[21:57:55]            x_scaled = 366, y_scaled = 249
+[21:57:55]        y_inverted_scaled = 650
+[21:57:56] 🔍 DEBUG: normiert = (0.252, 0.298)
+[21:57:56]            x_scaled = 362, y_scaled = 268
+[21:57:56]        y_inverted_scaled = 631
+[21:57:56] 🔍 DEBUG: normiert = (0.266, 0.291)
+[21:57:56]            x_scaled = 382, y_scaled = 262
+[21:57:56]        y_inverted_scaled = 637
+[21:57:56] 🔍 DEBUG: normiert = (0.258, 0.293)
+[21:57:56]            x_scaled = 371, y_scaled = 263
+[21:57:56]        y_inverted_scaled = 636
+[21:57:56] 🔍 DEBUG: normiert = (0.243, 0.286)
+[21:57:56]            x_scaled = 350, y_scaled = 257
+[21:57:56]        y_inverted_scaled = 642
+[21:57:56] 🔍 DEBUG: normiert = (0.253, 0.271)
+[21:57:56]            x_scaled = 363, y_scaled = 243
+[21:57:56]        y_inverted_scaled = 656
+[21:57:56] 🔍 DEBUG: normiert = (0.238, 0.279)
+[21:57:56]            x_scaled = 342, y_scaled = 250
+[21:57:56]        y_inverted_scaled = 649
+[21:57:56] 🔍 DEBUG: normiert = (0.244, 0.269)
+[21:57:56]            x_scaled = 351, y_scaled = 242
+[21:57:56]        y_inverted_scaled = 657
+[21:57:56] 🔍 DEBUG: normiert = (0.225, 0.279)
+[21:57:56]            x_scaled = 324, y_scaled = 250
+[21:57:56]        y_inverted_scaled = 649
+[21:57:56] 🔍 DEBUG: normiert = (0.227, 0.284)
+[21:57:56]            x_scaled = 327, y_scaled = 255
+[21:57:56]        y_inverted_scaled = 644
+[21:57:56] 🔍 DEBUG: normiert = (0.235, 0.276)
+[21:57:56]            x_scaled = 337, y_scaled = 248
+[21:57:56]        y_inverted_scaled = 651
+[21:57:56] 🔍 DEBUG: normiert = (0.241, 0.272)
+[21:57:56]            x_scaled = 346, y_scaled = 245
+[21:57:56]        y_inverted_scaled = 654
+[21:57:56] 🔍 DEBUG: normiert = (0.205, 0.280)
+[21:57:56]            x_scaled = 295, y_scaled = 252
+[21:57:56]        y_inverted_scaled = 647
+[21:57:56] 🔍 DEBUG: normiert = (0.196, 0.277)
+[21:57:56]            x_scaled = 281, y_scaled = 249
+[21:57:56]        y_inverted_scaled = 650
+[21:57:56] 🔍 DEBUG: normiert = (0.194, 0.267)
+[21:57:56]            x_scaled = 278, y_scaled = 240
+[21:57:56]        y_inverted_scaled = 659
+[21:57:56] 🔍 DEBUG: normiert = (0.178, 0.312)
+[21:57:56]            x_scaled = 256, y_scaled = 280
+[21:57:56]        y_inverted_scaled = 619
+[21:57:57] 🔍 DEBUG: normiert = (0.164, 0.315)
+[21:57:57]            x_scaled = 235, y_scaled = 283
+[21:57:57]        y_inverted_scaled = 616
+[21:57:57] 🔍 DEBUG: normiert = (0.158, 0.325)
+[21:57:57]            x_scaled = 227, y_scaled = 292
+[21:57:57]        y_inverted_scaled = 607
+[21:57:57] 🔍 DEBUG: normiert = (0.168, 0.325)
+[21:57:57]            x_scaled = 242, y_scaled = 292
+[21:57:57]        y_inverted_scaled = 607
+[21:57:57] 🔍 DEBUG: normiert = (0.161, 0.332)
+[21:57:57]            x_scaled = 231, y_scaled = 298
+[21:57:57]        y_inverted_scaled = 601
+[21:57:57] 🔍 DEBUG: normiert = (0.169, 0.332)
+[21:57:57]            x_scaled = 243, y_scaled = 298
+[21:57:57]        y_inverted_scaled = 601
+[21:57:57] 🔍 DEBUG: normiert = (0.192, 0.309)
+[21:57:57]            x_scaled = 276, y_scaled = 278
+[21:57:57]        y_inverted_scaled = 621
+[21:57:57] 🔍 DEBUG: normiert = (0.187, 0.310)
+[21:57:57]            x_scaled = 269, y_scaled = 279
+[21:57:57]        y_inverted_scaled = 620
+[21:57:57] 🔍 DEBUG: normiert = (0.199, 0.311)
+[21:57:57]            x_scaled = 286, y_scaled = 280
+[21:57:57]        y_inverted_scaled = 619
+[21:57:57] 🔍 DEBUG: normiert = (0.207, 0.323)
+[21:57:57]            x_scaled = 298, y_scaled = 290
+[21:57:57]        y_inverted_scaled = 609
+[21:57:57] 🔍 DEBUG: normiert = (0.192, 0.423)
+[21:57:57]            x_scaled = 276, y_scaled = 380
+[21:57:57]        y_inverted_scaled = 519
+[21:57:57] 🔍 DEBUG: normiert = (0.188, 0.485)
+[21:57:57]            x_scaled = 270, y_scaled = 436
+[21:57:57]        y_inverted_scaled = 463
+[21:57:57] 🔍 DEBUG: normiert = (0.193, 0.514)
+[21:57:57]            x_scaled = 277, y_scaled = 462
+[21:57:57]        y_inverted_scaled = 437
+[21:57:57] 🔍 DEBUG: normiert = (0.188, 0.529)
+[21:57:57]            x_scaled = 271, y_scaled = 476
+[21:57:57]        y_inverted_scaled = 423
+[21:57:57] 🔍 DEBUG: normiert = (0.189, 0.536)
+[21:57:57]            x_scaled = 271, y_scaled = 482
+[21:57:57]        y_inverted_scaled = 417
+[21:57:57] 🔍 DEBUG: normiert = (0.194, 0.544)
+[21:57:57]            x_scaled = 279, y_scaled = 489
+[21:57:57]        y_inverted_scaled = 410
+[21:57:58] 🔍 DEBUG: normiert = (0.185, 0.555)
+[21:57:58]            x_scaled = 266, y_scaled = 499
+[21:57:58]        y_inverted_scaled = 400
+[21:57:58] 🔍 DEBUG: normiert = (0.186, 0.554)
+[21:57:58]            x_scaled = 267, y_scaled = 498
+[21:57:58]        y_inverted_scaled = 401
+[21:57:58] 🔍 DEBUG: normiert = (0.178, 0.570)
+[21:57:58]            x_scaled = 256, y_scaled = 513
+[21:57:58]        y_inverted_scaled = 386
+[21:57:58] 🔍 DEBUG: normiert = (0.175, 0.578)
+[21:57:58]            x_scaled = 252, y_scaled = 520
+[21:57:58]        y_inverted_scaled = 379
+[21:57:58] 🔍 DEBUG: normiert = (0.180, 0.571)
+[21:57:58]            x_scaled = 259, y_scaled = 513
+[21:57:58]        y_inverted_scaled = 386
+[21:57:58] 🔍 DEBUG: normiert = (0.189, 0.581)
+[21:57:58]            x_scaled = 272, y_scaled = 523
+[21:57:58]        y_inverted_scaled = 376
+[21:57:58] 🔍 DEBUG: normiert = (0.184, 0.578)
+[21:57:58]            x_scaled = 265, y_scaled = 520
+[21:57:58]        y_inverted_scaled = 379
+[21:57:58] 🔍 DEBUG: normiert = (0.272, 0.624)
+[21:57:58]            x_scaled = 391, y_scaled = 561
+[21:57:58]        y_inverted_scaled = 338
+[21:57:58] 🔍 DEBUG: normiert = (0.342, 0.604)
+[21:57:58]            x_scaled = 493, y_scaled = 543
+[21:57:58]        y_inverted_scaled = 356
+[21:57:58] 🔍 DEBUG: normiert = (0.382, 0.575)
+[21:57:58]            x_scaled = 550, y_scaled = 517
+[21:57:58]        y_inverted_scaled = 382
+[21:57:58] 🔍 DEBUG: normiert = (0.386, 0.557)
+[21:57:58]            x_scaled = 555, y_scaled = 500
+[21:57:58]        y_inverted_scaled = 399
+[21:57:58] 🔍 DEBUG: normiert = (0.393, 0.554)
+[21:57:58]            x_scaled = 566, y_scaled = 498
+[21:57:58]        y_inverted_scaled = 401
+[21:57:58] 🔍 DEBUG: normiert = (0.377, 0.530)
+[21:57:58]            x_scaled = 543, y_scaled = 476
+[21:57:58]        y_inverted_scaled = 423
+[21:57:58] 🔍 DEBUG: normiert = (0.378, 0.521)
+[21:57:58]            x_scaled = 544, y_scaled = 468
+[21:57:58]        y_inverted_scaled = 431
+[21:57:59] 🔍 DEBUG: normiert = (0.377, 0.513)
+[21:57:59]            x_scaled = 543, y_scaled = 461
+[21:57:59]        y_inverted_scaled = 438
+[21:57:59] 🔍 DEBUG: normiert = (0.372, 0.519)
+[21:57:59]            x_scaled = 535, y_scaled = 467
+[21:57:59]        y_inverted_scaled = 432
+[21:57:59] 🔍 DEBUG: normiert = (0.373, 0.511)
+[21:57:59]            x_scaled = 537, y_scaled = 459
+[21:57:59]        y_inverted_scaled = 440
+[21:57:59] 🔍 DEBUG: normiert = (0.379, 0.522)
+[21:57:59]            x_scaled = 546, y_scaled = 469
+[21:57:59]        y_inverted_scaled = 430
+[21:57:59] 🔍 DEBUG: normiert = (0.362, 0.527)
+[21:57:59]            x_scaled = 520, y_scaled = 474
+[21:57:59]        y_inverted_scaled = 425
+[21:57:59] 🔍 DEBUG: normiert = (0.358, 0.533)
+[21:57:59]            x_scaled = 515, y_scaled = 479
+[21:57:59]        y_inverted_scaled = 420
+[21:57:59] 🔍 DEBUG: normiert = (0.388, 0.550)
+[21:57:59]            x_scaled = 558, y_scaled = 494
+[21:57:59]        y_inverted_scaled = 405
+[21:57:59] 🔍 DEBUG: normiert = (0.395, 0.554)
+[21:57:59]            x_scaled = 568, y_scaled = 498
+[21:57:59]        y_inverted_scaled = 401
+[21:57:59] 🔍 DEBUG: normiert = (0.314, 0.418)
+[21:57:59]            x_scaled = 452, y_scaled = 376
+[21:57:59]        y_inverted_scaled = 523
+[21:57:59] 🔍 DEBUG: normiert = (0.315, 0.342)
+[21:57:59]            x_scaled = 454, y_scaled = 307
+[21:57:59]        y_inverted_scaled = 592
+[21:57:59] 🔍 DEBUG: normiert = (0.316, 0.268)
+[21:57:59]            x_scaled = 454, y_scaled = 240
+[21:57:59]        y_inverted_scaled = 659
+[21:57:59] 🔍 DEBUG: normiert = (0.342, 0.246)
+[21:57:59]            x_scaled = 492, y_scaled = 221
+[21:57:59]        y_inverted_scaled = 678
+[21:57:59] 🔍 DEBUG: normiert = (0.346, 0.257)
+[21:57:59]            x_scaled = 498, y_scaled = 231
+[21:57:59]        y_inverted_scaled = 668
+[21:57:59] 🔍 DEBUG: normiert = (0.340, 0.246)
+[21:57:59]            x_scaled = 489, y_scaled = 221
+[21:57:59]        y_inverted_scaled = 678
+[21:57:59] 🔍 DEBUG: normiert = (0.331, 0.235)
+[21:57:59]            x_scaled = 476, y_scaled = 211
+[21:57:59]        y_inverted_scaled = 688
+[21:58:00] 🔍 DEBUG: normiert = (0.321, 0.241)
+[21:58:00]            x_scaled = 462, y_scaled = 216
+[21:58:00]        y_inverted_scaled = 683
+[21:58:00] 🔍 DEBUG: normiert = (0.316, 0.263)
+[21:58:00]            x_scaled = 454, y_scaled = 236
+[21:58:00]        y_inverted_scaled = 663
+[21:58:00] 🔍 DEBUG: normiert = (0.318, 0.269)
+[21:58:00]            x_scaled = 458, y_scaled = 241
+[21:58:00]        y_inverted_scaled = 658
+[21:58:00] 🔍 DEBUG: normiert = (0.318, 0.252)
+[21:58:00]            x_scaled = 457, y_scaled = 226
+[21:58:00]        y_inverted_scaled = 673
+[21:58:00] 🔍 DEBUG: normiert = (0.298, 0.254)
+[21:58:00]            x_scaled = 429, y_scaled = 228
+[21:58:00]        y_inverted_scaled = 671
+[21:58:00] 🔍 DEBUG: normiert = (0.280, 0.258)
+[21:58:00]            x_scaled = 403, y_scaled = 232
+[21:58:00]        y_inverted_scaled = 667
+[21:58:00] 🔍 DEBUG: normiert = (0.276, 0.264)
+[21:58:00]            x_scaled = 396, y_scaled = 237
+[21:58:00]        y_inverted_scaled = 662
+[21:58:00] 🔍 DEBUG: normiert = (0.232, 0.256)
+[21:58:00]            x_scaled = 333, y_scaled = 230
+[21:58:00]        y_inverted_scaled = 669
+[21:58:00] 🔍 DEBUG: normiert = (0.205, 0.264)
+[21:58:00]            x_scaled = 295, y_scaled = 237
+[21:58:00]        y_inverted_scaled = 662
+[21:58:00] 🔍 DEBUG: normiert = (0.201, 0.268)
+[21:58:00]            x_scaled = 289, y_scaled = 241
+[21:58:00]        y_inverted_scaled = 658
+[21:58:00] 🔍 DEBUG: normiert = (0.209, 0.268)
+[21:58:00]            x_scaled = 300, y_scaled = 241
+[21:58:00]        y_inverted_scaled = 658
+[21:58:00] 🔍 DEBUG: normiert = (0.208, 0.278)
+[21:58:00]            x_scaled = 299, y_scaled = 249
+[21:58:00]        y_inverted_scaled = 650
+[21:58:00] 🔍 DEBUG: normiert = (0.222, 0.273)
+[21:58:00]            x_scaled = 319, y_scaled = 245
+[21:58:00]        y_inverted_scaled = 654
+[21:58:00] 🔍 DEBUG: normiert = (0.216, 0.271)
+[21:58:00]            x_scaled = 311, y_scaled = 243
+[21:58:00]        y_inverted_scaled = 656
+[21:58:00] 🔍 DEBUG: normiert = (0.196, 0.283)
+[21:58:00]            x_scaled = 282, y_scaled = 254
+[21:58:00]        y_inverted_scaled = 645
+[21:58:01] 🔍 DEBUG: normiert = (0.207, 0.268)
+[21:58:01]            x_scaled = 298, y_scaled = 241
+[21:58:01]        y_inverted_scaled = 658
+[21:58:01] 🔍 DEBUG: normiert = (0.195, 0.365)
+[21:58:01]            x_scaled = 280, y_scaled = 328
+[21:58:01]        y_inverted_scaled = 571
+[21:58:01] 🔍 DEBUG: normiert = (0.161, 0.529)
+[21:58:01]            x_scaled = 231, y_scaled = 476
+[21:58:01]        y_inverted_scaled = 423
+[21:58:01] 🔍 DEBUG: normiert = (0.156, 0.582)
+[21:58:01]            x_scaled = 224, y_scaled = 523
+[21:58:01]        y_inverted_scaled = 376
+[21:58:01] 🔍 DEBUG: normiert = (0.142, 0.615)
+[21:58:01]            x_scaled = 204, y_scaled = 553
+[21:58:01]        y_inverted_scaled = 346
+[21:58:01] 🔍 DEBUG: normiert = (0.170, 0.596)
+[21:58:01]            x_scaled = 244, y_scaled = 536
+[21:58:01]        y_inverted_scaled = 363
+[21:58:01] 🔍 DEBUG: normiert = (0.168, 0.651)
+[21:58:01]            x_scaled = 242, y_scaled = 585
+[21:58:01]        y_inverted_scaled = 314
+[21:58:01] 🔍 DEBUG: normiert = (0.161, 0.624)
+[21:58:01]            x_scaled = 231, y_scaled = 561
+[21:58:01]        y_inverted_scaled = 338
+[21:58:01] 🔍 DEBUG: normiert = (0.163, 0.631)
+[21:58:01]            x_scaled = 234, y_scaled = 568
+[21:58:01]        y_inverted_scaled = 331
+[21:58:01] 🔍 DEBUG: normiert = (0.166, 0.629)
+[21:58:01]            x_scaled = 238, y_scaled = 566
+[21:58:01]        y_inverted_scaled = 333
+[21:58:01] 🔍 DEBUG: normiert = (0.177, 0.629)
+[21:58:01]            x_scaled = 254, y_scaled = 566
+[21:58:01]        y_inverted_scaled = 333
+[21:58:01] 🔍 DEBUG: normiert = (0.167, 0.629)
+[21:58:01]            x_scaled = 240, y_scaled = 565
+[21:58:01]        y_inverted_scaled = 334
+[21:58:01] 🔍 DEBUG: normiert = (0.193, 0.582)
+[21:58:01]            x_scaled = 278, y_scaled = 523
+[21:58:01]        y_inverted_scaled = 376
+[21:58:01] 🔍 DEBUG: normiert = (0.211, 0.459)
+[21:58:01]            x_scaled = 303, y_scaled = 412
+[21:58:01]        y_inverted_scaled = 487
+[21:58:01] 🔍 DEBUG: normiert = (0.209, 0.500)
+[21:58:01]            x_scaled = 301, y_scaled = 449
+[21:58:01]        y_inverted_scaled = 450
+[21:58:02] 🔍 DEBUG: normiert = (0.195, 0.432)
+[21:58:02]            x_scaled = 281, y_scaled = 388
+[21:58:02]        y_inverted_scaled = 511
+[21:58:02] 🔍 DEBUG: normiert = (0.186, 0.469)
+[21:58:02]            x_scaled = 268, y_scaled = 421
+[21:58:02]        y_inverted_scaled = 478
+[21:58:02] 🔍 DEBUG: normiert = (0.183, 0.468)
+[21:58:02]            x_scaled = 262, y_scaled = 421
+[21:58:02]        y_inverted_scaled = 478
+[21:58:02] 🔍 DEBUG: normiert = (0.201, 0.497)
+[21:58:02]            x_scaled = 289, y_scaled = 447
+[21:58:02]        y_inverted_scaled = 452
+[21:58:02] 🔍 DEBUG: normiert = (0.174, 0.598)
+[21:58:02]            x_scaled = 251, y_scaled = 537
+[21:58:02]        y_inverted_scaled = 362
+[21:58:02] 🔍 DEBUG: normiert = (0.140, 0.626)
+[21:58:02]            x_scaled = 201, y_scaled = 563
+[21:58:02]        y_inverted_scaled = 336
+[21:58:02] 🔍 DEBUG: normiert = (0.138, 0.647)
+[21:58:02]            x_scaled = 199, y_scaled = 581
+[21:58:02]        y_inverted_scaled = 318
+[21:58:02] 🔍 DEBUG: normiert = (0.189, 0.603)
+[21:58:02]            x_scaled = 272, y_scaled = 542
+[21:58:02]        y_inverted_scaled = 357
+[21:58:02] 🔍 DEBUG: normiert = (0.188, 0.501)
+[21:58:02]            x_scaled = 271, y_scaled = 451
+[21:58:02]        y_inverted_scaled = 448
+[21:58:02] 🔍 DEBUG: normiert = (0.210, 0.489)
+[21:58:02]            x_scaled = 302, y_scaled = 440
+[21:58:02]        y_inverted_scaled = 459
+[21:58:02] 🔍 DEBUG: normiert = (0.253, 0.611)
+[21:58:02]            x_scaled = 364, y_scaled = 550
+[21:58:02]        y_inverted_scaled = 349
+[21:58:02] 🔍 DEBUG: normiert = (0.225, 0.470)
+[21:58:02]            x_scaled = 324, y_scaled = 423
+[21:58:02]        y_inverted_scaled = 476
+[21:58:02] 🔍 DEBUG: normiert = (0.211, 0.473)
+[21:58:02]            x_scaled = 303, y_scaled = 425
+[21:58:02]        y_inverted_scaled = 474
+[21:58:02] 🔍 DEBUG: normiert = (0.208, 0.482)
+[21:58:02]            x_scaled = 299, y_scaled = 433
+[21:58:02]        y_inverted_scaled = 466
+[21:58:03] 🔍 DEBUG: normiert = (0.200, 0.554)
+[21:58:03]            x_scaled = 288, y_scaled = 498
+[21:58:03]        y_inverted_scaled = 401
+[21:58:03] 🔍 DEBUG: normiert = (0.281, 0.665)
+[21:58:03]            x_scaled = 403, y_scaled = 598
+[21:58:03]        y_inverted_scaled = 301
+[21:58:03] 🔍 DEBUG: normiert = (0.346, 0.690)
+[21:58:03]            x_scaled = 498, y_scaled = 620
+[21:58:03]        y_inverted_scaled = 279
+[21:58:03] 🔍 DEBUG: normiert = (0.243, 0.697)
+[21:58:03]            x_scaled = 349, y_scaled = 627
+[21:58:03]        y_inverted_scaled = 272
+[21:58:03] 🔍 DEBUG: normiert = (0.292, 0.723)
+[21:58:03]            x_scaled = 419, y_scaled = 650
+[21:58:03]        y_inverted_scaled = 249
+[21:58:03] 🔍 DEBUG: normiert = (0.231, 0.759)
+[21:58:03]            x_scaled = 333, y_scaled = 683
+[21:58:03]        y_inverted_scaled = 216
+[21:58:04] 🔍 DEBUG: normiert = (0.186, 0.816)
+[21:58:04]            x_scaled = 268, y_scaled = 734
+[21:58:04]        y_inverted_scaled = 165
+[21:58:04] 🔍 DEBUG: normiert = (0.123, 0.773)
+[21:58:04]            x_scaled = 177, y_scaled = 696
+[21:58:04]        y_inverted_scaled = 203
+[21:58:04] 🔍 DEBUG: normiert = (0.065, 0.850)
+[21:58:04]            x_scaled = 94, y_scaled = 765
+[21:58:04]        y_inverted_scaled = 134
+[21:58:04] 🔍 DEBUG: normiert = (0.078, 0.897)
+[21:58:04]            x_scaled = 111, y_scaled = 807
+[21:58:04]        y_inverted_scaled = 92
+[21:58:04] 🔍 DEBUG: normiert = (0.064, 0.825)
+[21:58:04]            x_scaled = 92, y_scaled = 742
+[21:58:04]        y_inverted_scaled = 157
+[21:58:04] 🔍 DEBUG: normiert = (0.086, 0.800)
+[21:58:04]            x_scaled = 124, y_scaled = 720
+[21:58:04]        y_inverted_scaled = 179
+[21:58:04] 🔍 DEBUG: normiert = (0.094, 0.695)
+[21:58:04]            x_scaled = 134, y_scaled = 625
+[21:58:04]        y_inverted_scaled = 274
+[21:58:04] 🔍 DEBUG: normiert = (0.121, 0.690)
+[21:58:04]            x_scaled = 174, y_scaled = 620
+[21:58:04]        y_inverted_scaled = 279
+[21:58:04] 🔍 DEBUG: normiert = (0.126, 0.723)
+[21:58:04]            x_scaled = 181, y_scaled = 650
+[21:58:04]        y_inverted_scaled = 249
+[21:58:04] 🔍 DEBUG: normiert = (0.160, 0.545)
+[21:58:04]            x_scaled = 230, y_scaled = 490
+[21:58:04]        y_inverted_scaled = 409
+[21:58:04] 🔍 DEBUG: normiert = (0.165, 0.481)
+[21:58:04]            x_scaled = 238, y_scaled = 432
+[21:58:04]        y_inverted_scaled = 467
+[21:58:05] 🔍 DEBUG: normiert = (0.201, 0.457)
+[21:58:05]            x_scaled = 288, y_scaled = 411
+[21:58:05]        y_inverted_scaled = 488
+[21:58:05] 🔍 DEBUG: normiert = (0.221, 0.433)
+[21:58:05]            x_scaled = 318, y_scaled = 389
+[21:58:05]        y_inverted_scaled = 510
+[21:58:05] 🔍 DEBUG: normiert = (0.277, 0.430)
+[21:58:05]            x_scaled = 399, y_scaled = 387
+[21:58:05]        y_inverted_scaled = 512
+[21:58:05] 🔍 DEBUG: normiert = (0.272, 0.366)
+[21:58:05]            x_scaled = 392, y_scaled = 329
+[21:58:05]        y_inverted_scaled = 570
+[21:58:05] 🔍 DEBUG: normiert = (0.328, 0.342)
+[21:58:05]            x_scaled = 472, y_scaled = 307
+[21:58:05]        y_inverted_scaled = 592
+[21:58:05] 🔍 DEBUG: normiert = (0.309, 0.348)
+[21:58:05]            x_scaled = 445, y_scaled = 313
+[21:58:05]        y_inverted_scaled = 586
+[21:58:05] 🔍 DEBUG: normiert = (0.349, 0.431)
+[21:58:05]            x_scaled = 502, y_scaled = 387
+[21:58:05]        y_inverted_scaled = 512
+[21:58:05] 🔍 DEBUG: normiert = (0.308, 0.360)
+[21:58:05]            x_scaled = 443, y_scaled = 323
+[21:58:05]        y_inverted_scaled = 576
+[21:58:05] 🔍 DEBUG: normiert = (0.308, 0.268)
+[21:58:05]            x_scaled = 443, y_scaled = 241
+[21:58:05]        y_inverted_scaled = 658
+[21:58:05] 🔍 DEBUG: normiert = (0.358, 0.186)
+[21:58:05]            x_scaled = 516, y_scaled = 167
+[21:58:05]        y_inverted_scaled = 732
+[21:58:06] 🔍 DEBUG: normiert = (0.507, 0.300)
+[21:58:06]            x_scaled = 730, y_scaled = 270
+[21:58:06]        y_inverted_scaled = 629
+[21:58:06] 🔍 DEBUG: normiert = (0.585, 0.380)
+[21:58:06]            x_scaled = 842, y_scaled = 341
+[21:58:06]        y_inverted_scaled = 558
+[21:58:06] 🔍 DEBUG: normiert = (0.588, 0.403)
+[21:58:06]            x_scaled = 847, y_scaled = 362
+[21:58:06]        y_inverted_scaled = 537
+[21:58:06] 🔍 DEBUG: normiert = (0.591, 0.354)
+[21:58:06]            x_scaled = 850, y_scaled = 318
+[21:58:06]        y_inverted_scaled = 581
+[21:58:06] 🔍 DEBUG: normiert = (0.586, 0.343)
+[21:58:06]            x_scaled = 844, y_scaled = 308
+[21:58:06]        y_inverted_scaled = 591
+[21:58:06] 🔍 DEBUG: normiert = (0.673, 0.467)
+[21:58:06]            x_scaled = 968, y_scaled = 420
+[21:58:06]        y_inverted_scaled = 479
+[21:58:06] 🔍 DEBUG: normiert = (0.690, 0.483)
+[21:58:06]            x_scaled = 993, y_scaled = 435
+[21:58:06]        y_inverted_scaled = 464
+[21:58:06] 🔍 DEBUG: normiert = (0.726, 0.513)
+[21:58:06]            x_scaled = 1045, y_scaled = 461
+[21:58:06]        y_inverted_scaled = 438
+[21:58:06] 🔍 DEBUG: normiert = (0.713, 0.494)
+[21:58:06]            x_scaled = 1026, y_scaled = 444
+[21:58:06]        y_inverted_scaled = 455
+[21:58:06] 🔍 DEBUG: normiert = (0.702, 0.466)
+[21:58:06]            x_scaled = 1010, y_scaled = 419
+[21:58:06]        y_inverted_scaled = 480
+[21:58:07] 🔍 DEBUG: normiert = (0.710, 0.527)
+[21:58:07]            x_scaled = 1022, y_scaled = 474
+[21:58:07]        y_inverted_scaled = 425
+[21:58:07] 🔍 DEBUG: normiert = (0.690, 0.499)
+[21:58:07]            x_scaled = 993, y_scaled = 449
+[21:58:07]        y_inverted_scaled = 450
+[21:58:07] 🔍 DEBUG: normiert = (0.724, 0.514)
+[21:58:07]            x_scaled = 1043, y_scaled = 462
+[21:58:07]        y_inverted_scaled = 437
+[21:58:07] 🔍 DEBUG: normiert = (0.492, 0.635)
+[21:58:07]            x_scaled = 708, y_scaled = 571
+[21:58:07]        y_inverted_scaled = 328
+[21:58:07] 🔍 DEBUG: normiert = (0.415, 0.656)
+[21:58:07]            x_scaled = 596, y_scaled = 590
+[21:58:07]        y_inverted_scaled = 309
+[21:58:07] 🔍 DEBUG: normiert = (0.366, 0.672)
+[21:58:07]            x_scaled = 527, y_scaled = 604
+[21:58:07]        y_inverted_scaled = 295
+[21:58:07] 🔍 DEBUG: normiert = (0.380, 0.693)
+[21:58:07]            x_scaled = 546, y_scaled = 623
+[21:58:07]        y_inverted_scaled = 276
+[21:58:07] 🔍 DEBUG: normiert = (0.373, 0.691)
+[21:58:07]            x_scaled = 537, y_scaled = 621
+[21:58:07]        y_inverted_scaled = 278
+[21:58:07] 🔍 DEBUG: normiert = (0.346, 0.707)
+[21:58:07]            x_scaled = 498, y_scaled = 636
+[21:58:07]        y_inverted_scaled = 263
+[21:58:07] 🔍 DEBUG: normiert = (0.341, 0.720)
+[21:58:07]            x_scaled = 491, y_scaled = 647
+[21:58:07]        y_inverted_scaled = 252
+[21:58:08] 🔍 DEBUG: normiert = (0.327, 0.724)
+[21:58:08]            x_scaled = 471, y_scaled = 651
+[21:58:08]        y_inverted_scaled = 248
+[21:58:08] 🔍 DEBUG: normiert = (0.349, 0.724)
+[21:58:08]            x_scaled = 502, y_scaled = 651
+[21:58:08]        y_inverted_scaled = 248
+[21:58:08] 🔍 DEBUG: normiert = (0.333, 0.734)
+[21:58:08]            x_scaled = 479, y_scaled = 660
+[21:58:08]        y_inverted_scaled = 239
+[21:58:08] 🔍 DEBUG: normiert = (0.320, 0.712)
+[21:58:08]            x_scaled = 461, y_scaled = 640
+[21:58:08]        y_inverted_scaled = 259
+[21:58:08] 🔍 DEBUG: normiert = (0.338, 0.686)
+[21:58:08]            x_scaled = 486, y_scaled = 617
+[21:58:08]        y_inverted_scaled = 282
+[21:58:08] 🔍 DEBUG: normiert = (0.375, 0.498)
+[21:58:08]            x_scaled = 540, y_scaled = 448
+[21:58:08]        y_inverted_scaled = 451
+[21:58:08] 🔍 DEBUG: normiert = (0.387, 0.287)
+[21:58:08]            x_scaled = 556, y_scaled = 258
+[21:58:08]        y_inverted_scaled = 641
+[21:58:08] 🔍 DEBUG: normiert = (0.538, 0.222)
+[21:58:08]            x_scaled = 774, y_scaled = 199
+[21:58:08]        y_inverted_scaled = 700
+[21:58:08] 🔍 DEBUG: normiert = (0.489, 0.167)
+[21:58:08]            x_scaled = 704, y_scaled = 150
+[21:58:08]        y_inverted_scaled = 749
+[21:58:09] 🔍 DEBUG: normiert = (0.608, 0.152)
+[21:58:09]            x_scaled = 875, y_scaled = 136
+[21:58:09]        y_inverted_scaled = 763
+[21:58:09] 🔍 DEBUG: normiert = (0.496, 0.157)
+[21:58:09]            x_scaled = 713, y_scaled = 141
+[21:58:09]        y_inverted_scaled = 758
+[21:58:09] 🔍 DEBUG: normiert = (0.374, 0.173)
+[21:58:09]            x_scaled = 538, y_scaled = 155
+[21:58:09]        y_inverted_scaled = 744
+[21:58:09] 🔍 DEBUG: normiert = (0.351, 0.179)
+[21:58:09]            x_scaled = 505, y_scaled = 161
+[21:58:09]        y_inverted_scaled = 738
+[21:58:09] 🔍 DEBUG: normiert = (0.328, 0.184)
+[21:58:09]            x_scaled = 472, y_scaled = 165
+[21:58:09]        y_inverted_scaled = 734
+[21:58:09] 🔍 DEBUG: normiert = (0.337, 0.166)
+[21:58:09]            x_scaled = 484, y_scaled = 149
+[21:58:09]        y_inverted_scaled = 750
+[21:58:09] 🔍 DEBUG: normiert = (0.324, 0.211)
+[21:58:09]            x_scaled = 466, y_scaled = 190
+[21:58:09]        y_inverted_scaled = 709
+[21:58:09] 🔍 DEBUG: normiert = (0.333, 0.210)
+[21:58:09]            x_scaled = 478, y_scaled = 188
+[21:58:09]        y_inverted_scaled = 711
+[21:58:09] 🔍 DEBUG: normiert = (0.309, 0.214)
+[21:58:09]            x_scaled = 444, y_scaled = 192
+[21:58:09]        y_inverted_scaled = 707
+[21:58:09] 🔍 DEBUG: normiert = (0.314, 0.217)
+[21:58:09]            x_scaled = 451, y_scaled = 195
+[21:58:09]        y_inverted_scaled = 704
+[21:58:10] 🔍 DEBUG: normiert = (0.342, 0.247)
+[21:58:10]            x_scaled = 492, y_scaled = 222
+[21:58:10]        y_inverted_scaled = 677
+[21:58:10] 🔍 DEBUG: normiert = (0.379, 0.245)
+[21:58:10]            x_scaled = 545, y_scaled = 220
+[21:58:10]        y_inverted_scaled = 679
+[21:58:10] 🔍 DEBUG: normiert = (0.376, 0.363)
+[21:58:10]            x_scaled = 541, y_scaled = 326
+[21:58:10]        y_inverted_scaled = 573
+[21:58:10] 🔍 DEBUG: normiert = (0.396, 0.390)
+[21:58:10]            x_scaled = 570, y_scaled = 350
+[21:58:10]        y_inverted_scaled = 549
+[21:58:10] 🔍 DEBUG: normiert = (0.366, 0.281)
+[21:58:10]            x_scaled = 526, y_scaled = 252
+[21:58:10]        y_inverted_scaled = 647
+[21:58:10] 🔍 DEBUG: normiert = (0.337, 0.213)
+[21:58:10]            x_scaled = 484, y_scaled = 192
+[21:58:10]        y_inverted_scaled = 707
+[21:58:10] 🔍 DEBUG: normiert = (0.483, 0.506)
+[21:58:10]            x_scaled = 694, y_scaled = 455
+[21:58:10]        y_inverted_scaled = 444
+[21:58:10] 🔍 DEBUG: normiert = (0.417, 0.291)
+[21:58:10]            x_scaled = 599, y_scaled = 262
+[21:58:10]        y_inverted_scaled = 637
+[21:58:10] 🔍 DEBUG: normiert = (0.349, 0.216)
+[21:58:10]            x_scaled = 502, y_scaled = 194
+[21:58:10]        y_inverted_scaled = 705
+[21:58:10] 🔍 DEBUG: normiert = (0.311, 0.181)
+[21:58:10]            x_scaled = 447, y_scaled = 163
+[21:58:10]        y_inverted_scaled = 736
+[21:58:11] 🔍 DEBUG: normiert = (0.314, 0.157)
+[21:58:11]            x_scaled = 452, y_scaled = 141
+[21:58:11]        y_inverted_scaled = 758
+[21:58:11] 🔍 DEBUG: normiert = (0.306, 0.165)
+[21:58:11]            x_scaled = 441, y_scaled = 148
+[21:58:11]        y_inverted_scaled = 751
+[21:58:11] 🔍 DEBUG: normiert = (0.334, 0.159)
+[21:58:11]            x_scaled = 481, y_scaled = 142
+[21:58:11]        y_inverted_scaled = 757
+[21:58:11] 🔍 DEBUG: normiert = (0.334, 0.162)
+[21:58:11]            x_scaled = 481, y_scaled = 145
+[21:58:11]        y_inverted_scaled = 754
+[21:58:11] 🔍 DEBUG: normiert = (0.335, 0.161)
+[21:58:11]            x_scaled = 483, y_scaled = 144
+[21:58:11]        y_inverted_scaled = 755
+[21:58:11] 🔍 DEBUG: normiert = (0.334, 0.156)
+[21:58:11]            x_scaled = 480, y_scaled = 140
+[21:58:11]        y_inverted_scaled = 759
+[21:58:11] 🔍 DEBUG: normiert = (0.340, 0.161)
+[21:58:11]            x_scaled = 489, y_scaled = 145
+[21:58:11]        y_inverted_scaled = 754
+[21:58:11] 🔍 DEBUG: normiert = (0.356, 0.157)
+[21:58:11]            x_scaled = 513, y_scaled = 141
+[21:58:11]        y_inverted_scaled = 758
+[21:58:11] 🔍 DEBUG: normiert = (0.349, 0.152)
+[21:58:11]            x_scaled = 502, y_scaled = 136
+[21:58:11]        y_inverted_scaled = 763
+[21:58:11] 🔍 DEBUG: normiert = (0.341, 0.181)
+[21:58:11]            x_scaled = 491, y_scaled = 163
+[21:58:11]        y_inverted_scaled = 736
+[21:58:12] 🔍 DEBUG: normiert = (0.344, 0.231)
+[21:58:12]            x_scaled = 494, y_scaled = 208
+[21:58:12]        y_inverted_scaled = 691
+[21:58:12] 🔍 DEBUG: normiert = (0.319, 0.204)
+[21:58:12]            x_scaled = 459, y_scaled = 183
+[21:58:12]        y_inverted_scaled = 716
+[21:58:12] 🔍 DEBUG: normiert = (0.315, 0.225)
+[21:58:12]            x_scaled = 452, y_scaled = 202
+[21:58:12]        y_inverted_scaled = 697
+[21:58:12] 🔍 DEBUG: normiert = (0.310, 0.266)
+[21:58:12]            x_scaled = 446, y_scaled = 239
+[21:58:12]        y_inverted_scaled = 660
+[21:58:12] 🔍 DEBUG: normiert = (0.315, 0.225)
+[21:58:12]            x_scaled = 453, y_scaled = 202
+[21:58:12]        y_inverted_scaled = 697
+[21:58:12] 🔍 DEBUG: normiert = (0.279, 0.268)
+[21:58:12]            x_scaled = 401, y_scaled = 240
+[21:58:12]        y_inverted_scaled = 659
+[21:58:12] 🔍 DEBUG: normiert = (0.275, 0.345)
+[21:58:12]            x_scaled = 396, y_scaled = 310
+[21:58:12]        y_inverted_scaled = 589
+[21:58:12] 🔍 DEBUG: normiert = (0.221, 0.325)
+[21:58:12]            x_scaled = 318, y_scaled = 292
+[21:58:12]        y_inverted_scaled = 607
+[21:58:12] 🔍 DEBUG: normiert = (0.183, 0.409)
+[21:58:12]            x_scaled = 264, y_scaled = 367
+[21:58:12]        y_inverted_scaled = 532
+[21:58:12] 🔍 DEBUG: normiert = (0.162, 0.448)
+[21:58:12]            x_scaled = 233, y_scaled = 403
+[21:58:12]        y_inverted_scaled = 496
+[21:58:13] 🔍 DEBUG: normiert = (0.168, 0.485)
+[21:58:13]            x_scaled = 241, y_scaled = 436
+[21:58:13]        y_inverted_scaled = 463
+[21:58:13] 🔍 DEBUG: normiert = (0.161, 0.497)
+[21:58:13]            x_scaled = 231, y_scaled = 447
+[21:58:13]        y_inverted_scaled = 452
+[21:58:13] 🔍 DEBUG: normiert = (0.174, 0.518)
+[21:58:13]            x_scaled = 250, y_scaled = 466
+[21:58:13]        y_inverted_scaled = 433
+[21:58:13] 🔍 DEBUG: normiert = (0.186, 0.550)
+[21:58:13]            x_scaled = 268, y_scaled = 494
+[21:58:13]        y_inverted_scaled = 405
+[21:58:13] 🔍 DEBUG: normiert = (0.304, 0.632)
+[21:58:13]            x_scaled = 437, y_scaled = 568
+[21:58:13]        y_inverted_scaled = 331
+[21:58:13] 🔍 DEBUG: normiert = (0.359, 0.690)
+[21:58:13]            x_scaled = 516, y_scaled = 621
+[21:58:13]        y_inverted_scaled = 278
+[21:58:13] 🔍 DEBUG: normiert = (0.414, 0.735)
+[21:58:13]            x_scaled = 595, y_scaled = 661
+[21:58:13]        y_inverted_scaled = 238
+[21:58:13] 🔍 DEBUG: normiert = (0.451, 0.719)
+[21:58:13]            x_scaled = 649, y_scaled = 647
+[21:58:13]        y_inverted_scaled = 252
+[21:58:13] 🔍 DEBUG: normiert = (0.449, 0.719)
+[21:58:13]            x_scaled = 646, y_scaled = 646
+[21:58:13]        y_inverted_scaled = 253
+[21:58:13] 🔍 DEBUG: normiert = (0.455, 0.718)
+[21:58:13]            x_scaled = 655, y_scaled = 646
+[21:58:13]        y_inverted_scaled = 253
+[21:58:14] 🔍 DEBUG: normiert = (0.437, 0.726)
+[21:58:14]            x_scaled = 629, y_scaled = 653
+[21:58:14]        y_inverted_scaled = 246
+[21:58:14] 🔍 DEBUG: normiert = (0.425, 0.720)
+[21:58:14]            x_scaled = 612, y_scaled = 647
+[21:58:14]        y_inverted_scaled = 252
+[21:58:14] 🔍 DEBUG: normiert = (0.463, 0.706)
+[21:58:14]            x_scaled = 666, y_scaled = 635
+[21:58:14]        y_inverted_scaled = 264
+[21:58:14] 🔍 DEBUG: normiert = (0.645, 0.649)
+[21:58:14]            x_scaled = 928, y_scaled = 583
+[21:58:14]        y_inverted_scaled = 316
+[21:58:14] 🔍 DEBUG: normiert = (0.695, 0.547)
+[21:58:14]            x_scaled = 1000, y_scaled = 492
+[21:58:14]        y_inverted_scaled = 407
+[21:58:14] 🔍 DEBUG: normiert = (0.698, 0.503)
+[21:58:14]            x_scaled = 1004, y_scaled = 452
+[21:58:14]        y_inverted_scaled = 447
+[21:58:14] 🔍 DEBUG: normiert = (0.717, 0.492)
+[21:58:14]            x_scaled = 1031, y_scaled = 442
+[21:58:14]        y_inverted_scaled = 457
+[21:58:14] 🔍 DEBUG: normiert = (0.738, 0.454)
+[21:58:14]            x_scaled = 1063, y_scaled = 408
+[21:58:14]        y_inverted_scaled = 491
+[21:58:14] 🔍 DEBUG: normiert = (0.774, 0.398)
+[21:58:14]            x_scaled = 1114, y_scaled = 357
+[21:58:14]        y_inverted_scaled = 542
+[21:58:14] 🔍 DEBUG: normiert = (0.753, 0.502)
+[21:58:14]            x_scaled = 1084, y_scaled = 451
+[21:58:14]        y_inverted_scaled = 448
+[21:58:15] 🔍 DEBUG: normiert = (0.752, 0.515)
+[21:58:15]            x_scaled = 1083, y_scaled = 463
+[21:58:15]        y_inverted_scaled = 436
+[21:58:15] 🔍 DEBUG: normiert = (0.773, 0.509)
+[21:58:15]            x_scaled = 1112, y_scaled = 457
+[21:58:15]        y_inverted_scaled = 442
+[21:58:15] 🔍 DEBUG: normiert = (0.762, 0.520)
+[21:58:15]            x_scaled = 1097, y_scaled = 467
+[21:58:15]        y_inverted_scaled = 432
+[21:58:15] 🔍 DEBUG: normiert = (0.745, 0.496)
+[21:58:15]            x_scaled = 1072, y_scaled = 446
+[21:58:15]        y_inverted_scaled = 453
+[21:58:15] 🔍 DEBUG: normiert = (0.798, 0.513)
+[21:58:15]            x_scaled = 1148, y_scaled = 461
+[21:58:15]        y_inverted_scaled = 438
+[21:58:15] 🔍 DEBUG: normiert = (0.770, 0.521)
+[21:58:15]            x_scaled = 1108, y_scaled = 468
+[21:58:15]        y_inverted_scaled = 431
+[21:58:15] 🔍 DEBUG: normiert = (0.791, 0.538)
+[21:58:15]            x_scaled = 1138, y_scaled = 484
+[21:58:15]        y_inverted_scaled = 415
+[21:58:15] 🔍 DEBUG: normiert = (0.535, 0.332)
+[21:58:15]            x_scaled = 770, y_scaled = 298
+[21:58:15]        y_inverted_scaled = 601
+[21:58:15] 🔍 DEBUG: normiert = (0.400, 0.257)
+[21:58:15]            x_scaled = 575, y_scaled = 230
+[21:58:15]        y_inverted_scaled = 669
+[21:58:15] 🔍 DEBUG: normiert = (0.329, 0.238)
+[21:58:15]            x_scaled = 474, y_scaled = 214
+[21:58:15]        y_inverted_scaled = 685
+[21:58:16] 🔍 DEBUG: normiert = (0.308, 0.230)
+[21:58:16]            x_scaled = 443, y_scaled = 206
+[21:58:16]        y_inverted_scaled = 693
+[21:58:16] 🔍 DEBUG: normiert = (0.301, 0.226)
+[21:58:16]            x_scaled = 433, y_scaled = 203
+[21:58:16]        y_inverted_scaled = 696
+[21:58:16] 🔍 DEBUG: normiert = (0.302, 0.211)
+[21:58:16]            x_scaled = 434, y_scaled = 189
+[21:58:16]        y_inverted_scaled = 710
+[21:58:16] 🔍 DEBUG: normiert = (0.292, 0.210)
+[21:58:16]            x_scaled = 420, y_scaled = 189
+[21:58:16]        y_inverted_scaled = 710
+[21:58:16] 🔍 DEBUG: normiert = (0.300, 0.202)
+[21:58:16]            x_scaled = 431, y_scaled = 181
+[21:58:16]        y_inverted_scaled = 718
+[21:58:16] 🔍 DEBUG: normiert = (0.336, 0.252)
+[21:58:16]            x_scaled = 483, y_scaled = 227
+[21:58:16]        y_inverted_scaled = 672
+[21:58:16] 🔍 DEBUG: normiert = (0.319, 0.277)
+[21:58:16]            x_scaled = 459, y_scaled = 249
+[21:58:16]        y_inverted_scaled = 650
+[21:58:16] 🔍 DEBUG: normiert = (0.351, 0.271)
+[21:58:16]            x_scaled = 506, y_scaled = 243
+[21:58:16]        y_inverted_scaled = 656
+[21:58:16] 🔍 DEBUG: normiert = (0.328, 0.213)
+[21:58:16]            x_scaled = 472, y_scaled = 191
+[21:58:16]        y_inverted_scaled = 708
+[21:58:16] 🔍 DEBUG: normiert = (0.312, 0.207)
+[21:58:16]            x_scaled = 449, y_scaled = 186
+[21:58:16]        y_inverted_scaled = 713
+[21:58:17] 🔍 DEBUG: normiert = (0.307, 0.204)
+[21:58:17]            x_scaled = 442, y_scaled = 183
+[21:58:17]        y_inverted_scaled = 716
+[21:58:17] 🔍 DEBUG: normiert = (0.316, 0.199)
+[21:58:17]            x_scaled = 454, y_scaled = 179
+[21:58:17]        y_inverted_scaled = 720
+[21:58:17] 🔍 DEBUG: normiert = (0.313, 0.200)
+[21:58:17]            x_scaled = 450, y_scaled = 179
+[21:58:17]        y_inverted_scaled = 720
+[21:58:17] 🔍 DEBUG: normiert = (0.325, 0.198)
+[21:58:17]            x_scaled = 467, y_scaled = 178
+[21:58:17]        y_inverted_scaled = 721
+[21:58:17] 🔍 DEBUG: normiert = (0.309, 0.207)
+[21:58:17]            x_scaled = 445, y_scaled = 186
+[21:58:17]        y_inverted_scaled = 713
+[21:58:17] 🔍 DEBUG: normiert = (0.311, 0.196)
+[21:58:17]            x_scaled = 447, y_scaled = 176
+[21:58:17]        y_inverted_scaled = 723
+[21:58:17] 🔍 DEBUG: normiert = (0.297, 0.213)
+[21:58:17]            x_scaled = 428, y_scaled = 191
+[21:58:17]        y_inverted_scaled = 708
+[21:58:17] 🔍 DEBUG: normiert = (0.282, 0.244)
+[21:58:17]            x_scaled = 406, y_scaled = 219
+[21:58:17]        y_inverted_scaled = 680
+[21:58:17] 🔍 DEBUG: normiert = (0.265, 0.254)
+[21:58:17]            x_scaled = 380, y_scaled = 228
+[21:58:17]        y_inverted_scaled = 671
+[21:58:17] 🔍 DEBUG: normiert = (0.196, 0.457)
+[21:58:17]            x_scaled = 282, y_scaled = 411
+[21:58:17]        y_inverted_scaled = 488
+[21:58:18] 🔍 DEBUG: normiert = (0.166, 0.540)
+[21:58:18]            x_scaled = 238, y_scaled = 485
+[21:58:18]        y_inverted_scaled = 414
+[21:58:18] 🔍 DEBUG: normiert = (0.160, 0.596)
+[21:58:18]            x_scaled = 230, y_scaled = 536
+[21:58:18]        y_inverted_scaled = 363
+[21:58:18] 🔍 DEBUG: normiert = (0.154, 0.623)
+[21:58:18]            x_scaled = 222, y_scaled = 560
+[21:58:18]        y_inverted_scaled = 339
+[21:58:18] 🔍 DEBUG: normiert = (0.143, 0.639)
+[21:58:18]            x_scaled = 205, y_scaled = 575
+[21:58:18]        y_inverted_scaled = 324
+[21:58:18] 🔍 DEBUG: normiert = (0.144, 0.655)
+[21:58:18]            x_scaled = 207, y_scaled = 589
+[21:58:18]        y_inverted_scaled = 310
+[21:58:18] 🔍 DEBUG: normiert = (0.166, 0.693)
+[21:58:18]            x_scaled = 239, y_scaled = 623
+[21:58:18]        y_inverted_scaled = 276
+[21:58:18] 🔍 DEBUG: normiert = (0.225, 0.733)
+[21:58:18]            x_scaled = 323, y_scaled = 659
+[21:58:18]        y_inverted_scaled = 240
+[21:58:18] 🔍 DEBUG: normiert = (0.243, 0.737)
+[21:58:18]            x_scaled = 350, y_scaled = 663
+[21:58:18]        y_inverted_scaled = 236
+[21:58:18] 🔍 DEBUG: normiert = (0.272, 0.757)
+[21:58:18]            x_scaled = 391, y_scaled = 681
+[21:58:18]        y_inverted_scaled = 218
+[21:58:18] 🔍 DEBUG: normiert = (0.268, 0.793)
+[21:58:18]            x_scaled = 386, y_scaled = 713
+[21:58:18]        y_inverted_scaled = 186
+[21:58:19] 🔍 DEBUG: normiert = (0.282, 0.801)
+[21:58:19]            x_scaled = 405, y_scaled = 720
+[21:58:19]        y_inverted_scaled = 179
+[21:58:19] 🔍 DEBUG: normiert = (0.275, 0.773)
+[21:58:19]            x_scaled = 396, y_scaled = 695
+[21:58:19]        y_inverted_scaled = 204
+[21:58:19] 🔍 DEBUG: normiert = (0.286, 0.741)
+[21:58:19]            x_scaled = 412, y_scaled = 666
+[21:58:19]        y_inverted_scaled = 233
+[21:58:19] 🔍 DEBUG: normiert = (0.289, 0.747)
+[21:58:19]            x_scaled = 415, y_scaled = 672
+[21:58:19]        y_inverted_scaled = 227
+[21:58:19] 🔍 DEBUG: normiert = (0.560, 0.742)
+[21:58:19]            x_scaled = 806, y_scaled = 667
+[21:58:19]        y_inverted_scaled = 232
+[21:58:19] 🔍 DEBUG: normiert = (0.666, 0.720)
+[21:58:19]            x_scaled = 958, y_scaled = 648
+[21:58:19]        y_inverted_scaled = 251
+[21:58:19] 🔍 DEBUG: normiert = (0.697, 0.711)
+[21:58:19]            x_scaled = 1003, y_scaled = 640
+[21:58:19]        y_inverted_scaled = 259
+[21:58:19] 🔍 DEBUG: normiert = (0.745, 0.704)
+[21:58:19]            x_scaled = 1072, y_scaled = 633
+[21:58:19]        y_inverted_scaled = 266
+[21:58:19] 🔍 DEBUG: normiert = (0.769, 0.705)
+[21:58:19]            x_scaled = 1108, y_scaled = 634
+[21:58:19]        y_inverted_scaled = 265
+[21:58:19] 🔍 DEBUG: normiert = (0.783, 0.657)
+[21:58:19]            x_scaled = 1127, y_scaled = 590
+[21:58:19]        y_inverted_scaled = 309
+[21:58:20] 🔍 DEBUG: normiert = (0.786, 0.635)
+[21:58:20]            x_scaled = 1131, y_scaled = 571
+[21:58:20]        y_inverted_scaled = 328
+[21:58:20] 🔍 DEBUG: normiert = (0.798, 0.638)
+[21:58:20]            x_scaled = 1149, y_scaled = 574
+[21:58:20]        y_inverted_scaled = 325
+[21:58:20] 🔍 DEBUG: normiert = (0.799, 0.625)
+[21:58:20]            x_scaled = 1151, y_scaled = 562
+[21:58:20]        y_inverted_scaled = 337
+[21:58:20] 🔍 DEBUG: normiert = (0.801, 0.639)
+[21:58:20]            x_scaled = 1153, y_scaled = 575
+[21:58:20]        y_inverted_scaled = 324
+[21:58:20] 🔍 DEBUG: normiert = (0.790, 0.637)
+[21:58:20]            x_scaled = 1137, y_scaled = 573
+[21:58:20]        y_inverted_scaled = 326
+[21:58:20] 🔍 DEBUG: normiert = (0.760, 0.481)
+[21:58:20]            x_scaled = 1094, y_scaled = 432
+[21:58:20]        y_inverted_scaled = 467
+[21:58:20] 🔍 DEBUG: normiert = (0.686, 0.387)
+[21:58:20]            x_scaled = 987, y_scaled = 348
+[21:58:20]        y_inverted_scaled = 551
+[21:58:20] 🔍 DEBUG: normiert = (0.597, 0.294)
+[21:58:20]            x_scaled = 858, y_scaled = 264
+[21:58:20]        y_inverted_scaled = 635
+[21:58:20] 🔍 DEBUG: normiert = (0.565, 0.282)
+[21:58:20]            x_scaled = 814, y_scaled = 254
+[21:58:20]        y_inverted_scaled = 645
+[21:58:20] 🔍 DEBUG: normiert = (0.515, 0.261)
+[21:58:20]            x_scaled = 741, y_scaled = 235
+[21:58:20]        y_inverted_scaled = 664
+[21:58:21] 🔍 DEBUG: normiert = (0.525, 0.241)
+[21:58:21]            x_scaled = 756, y_scaled = 217
+[21:58:21]        y_inverted_scaled = 682
+[21:58:21] 🔍 DEBUG: normiert = (0.551, 0.254)
+[21:58:21]            x_scaled = 793, y_scaled = 228
+[21:58:21]        y_inverted_scaled = 671
+[21:58:21] 🔍 DEBUG: normiert = (0.545, 0.242)
+[21:58:21]            x_scaled = 785, y_scaled = 217
+[21:58:21]        y_inverted_scaled = 682
+[21:58:21] 🔍 DEBUG: normiert = (0.587, 0.277)
+[21:58:21]            x_scaled = 845, y_scaled = 249
+[21:58:21]        y_inverted_scaled = 650
+[21:58:21] 🔍 DEBUG: normiert = (0.664, 0.526)
+[21:58:21]            x_scaled = 956, y_scaled = 473
+[21:58:21]        y_inverted_scaled = 426
+[21:58:21] 🔍 DEBUG: normiert = (0.668, 0.639)
+[21:58:21]            x_scaled = 961, y_scaled = 575
+[21:58:21]        y_inverted_scaled = 324
+[21:58:21] 🔍 DEBUG: normiert = (0.685, 0.676)
+[21:58:21]            x_scaled = 985, y_scaled = 608
+[21:58:21]        y_inverted_scaled = 291
+[21:58:21] 🔍 DEBUG: normiert = (0.699, 0.683)
+[21:58:21]            x_scaled = 1006, y_scaled = 614
+[21:58:21]        y_inverted_scaled = 285
+[21:58:21] 🔍 DEBUG: normiert = (0.701, 0.664)
+[21:58:21]            x_scaled = 1010, y_scaled = 597
+[21:58:21]        y_inverted_scaled = 302
+[21:58:21] 🔍 DEBUG: normiert = (0.618, 0.412)
+[21:58:21]            x_scaled = 890, y_scaled = 371
+[21:58:21]        y_inverted_scaled = 528
+[21:58:22] 🔍 DEBUG: normiert = (0.593, 0.319)
+[21:58:22]            x_scaled = 853, y_scaled = 287
+[21:58:22]        y_inverted_scaled = 612
+[21:58:22] 🔍 DEBUG: normiert = (0.609, 0.308)
+[21:58:22]            x_scaled = 876, y_scaled = 277
+[21:58:22]        y_inverted_scaled = 622
+[21:58:22] 🔍 DEBUG: normiert = (0.664, 0.323)
+[21:58:22]            x_scaled = 956, y_scaled = 290
+[21:58:22]        y_inverted_scaled = 609
+[21:58:22] 🔍 DEBUG: normiert = (0.676, 0.345)
+[21:58:22]            x_scaled = 973, y_scaled = 310
+[21:58:22]        y_inverted_scaled = 589
+[21:58:22] 🔍 DEBUG: normiert = (0.708, 0.393)
+[21:58:22]            x_scaled = 1019, y_scaled = 353
+[21:58:22]        y_inverted_scaled = 546
+[21:58:22] 🔍 DEBUG: normiert = (0.723, 0.380)
+[21:58:22]            x_scaled = 1040, y_scaled = 341
+[21:58:22]        y_inverted_scaled = 558
+[21:58:22] 🔍 DEBUG: normiert = (0.724, 0.368)
+[21:58:22]            x_scaled = 1042, y_scaled = 331
+[21:58:22]        y_inverted_scaled = 568
+[21:58:22] 🔍 DEBUG: normiert = (0.727, 0.340)
+[21:58:22]            x_scaled = 1046, y_scaled = 305
+[21:58:22]        y_inverted_scaled = 594
+[21:58:22] 🔍 DEBUG: normiert = (0.766, 0.380)
+[21:58:22]            x_scaled = 1103, y_scaled = 341
+[21:58:22]        y_inverted_scaled = 558
+[21:58:22] 🔍 DEBUG: normiert = (0.503, 0.388)
+[21:58:22]            x_scaled = 724, y_scaled = 349
+[21:58:22]        y_inverted_scaled = 550
+[21:58:23] 🔍 DEBUG: normiert = (0.362, 0.359)
+[21:58:23]            x_scaled = 520, y_scaled = 322
+[21:58:23]        y_inverted_scaled = 577
+[21:58:23] 🔍 DEBUG: normiert = (0.234, 0.372)
+[21:58:23]            x_scaled = 336, y_scaled = 335
+[21:58:23]        y_inverted_scaled = 564
+[21:58:23] 🔍 DEBUG: normiert = (0.184, 0.394)
+[21:58:23]            x_scaled = 265, y_scaled = 354
+[21:58:23]        y_inverted_scaled = 545
+[21:58:23] 🔍 DEBUG: normiert = (0.169, 0.410)
+[21:58:23]            x_scaled = 242, y_scaled = 369
+[21:58:23]        y_inverted_scaled = 530
+[21:58:23] 🔍 DEBUG: normiert = (0.405, 0.526)
+[21:58:23]            x_scaled = 583, y_scaled = 473
+[21:58:23]        y_inverted_scaled = 426
+[21:58:23] 🔍 DEBUG: normiert = (0.594, 0.590)
+[21:58:23]            x_scaled = 855, y_scaled = 531
+[21:58:23]        y_inverted_scaled = 368
+[21:58:23] 🔍 DEBUG: normiert = (0.691, 0.639)
+[21:58:23]            x_scaled = 994, y_scaled = 574
+[21:58:23]        y_inverted_scaled = 325
+[21:58:23] 🔍 DEBUG: normiert = (0.712, 0.649)
+[21:58:23]            x_scaled = 1024, y_scaled = 584
+[21:58:23]        y_inverted_scaled = 315
+[21:58:23] 🔍 DEBUG: normiert = (0.715, 0.602)
+[21:58:23]            x_scaled = 1030, y_scaled = 542
+[21:58:23]        y_inverted_scaled = 357
+[21:58:23] 🔍 DEBUG: normiert = (0.641, 0.405)
+[21:58:23]            x_scaled = 923, y_scaled = 364
+[21:58:23]        y_inverted_scaled = 535
+[21:58:24] 🔍 DEBUG: normiert = (0.603, 0.362)
+[21:58:24]            x_scaled = 867, y_scaled = 325
+[21:58:24]        y_inverted_scaled = 574
+[21:58:24] 🔍 DEBUG: normiert = (0.594, 0.344)
+[21:58:24]            x_scaled = 854, y_scaled = 309
+[21:58:24]        y_inverted_scaled = 590
+[21:58:24] 🔍 DEBUG: normiert = (0.597, 0.362)
+[21:58:24]            x_scaled = 860, y_scaled = 325
+[21:58:24]        y_inverted_scaled = 574
+[21:58:24] 🔍 DEBUG: normiert = (0.407, 0.283)
+[21:58:24]            x_scaled = 586, y_scaled = 255
+[21:58:24]        y_inverted_scaled = 644
+[21:58:24] 🔍 DEBUG: normiert = (0.334, 0.243)
+[21:58:24]            x_scaled = 481, y_scaled = 218
+[21:58:24]        y_inverted_scaled = 681
+[21:58:24] 🔍 DEBUG: normiert = (0.299, 0.238)
+[21:58:24]            x_scaled = 431, y_scaled = 214
+[21:58:24]        y_inverted_scaled = 685
+[21:58:24] 🔍 DEBUG: normiert = (0.248, 0.275)
+[21:58:24]            x_scaled = 357, y_scaled = 247
+[21:58:24]        y_inverted_scaled = 652
+[21:58:24] 🔍 DEBUG: normiert = (0.218, 0.289)
+[21:58:24]            x_scaled = 314, y_scaled = 259
+[21:58:24]        y_inverted_scaled = 640
+[21:58:24] 🔍 DEBUG: normiert = (0.209, 0.370)
+[21:58:24]            x_scaled = 300, y_scaled = 332
+[21:58:24]        y_inverted_scaled = 567
+[21:58:24] 🔍 DEBUG: normiert = (0.194, 0.499)
+[21:58:24]            x_scaled = 279, y_scaled = 448
+[21:58:24]        y_inverted_scaled = 451
+[21:58:25] 🔍 DEBUG: normiert = (0.179, 0.518)
+[21:58:25]            x_scaled = 257, y_scaled = 465
+[21:58:25]        y_inverted_scaled = 434
+[21:58:25] 🔍 DEBUG: normiert = (0.173, 0.526)
+[21:58:25]            x_scaled = 249, y_scaled = 472
+[21:58:25]        y_inverted_scaled = 427
+[21:58:25] 🔍 DEBUG: normiert = (0.173, 0.531)
+[21:58:25]            x_scaled = 248, y_scaled = 477
+[21:58:25]        y_inverted_scaled = 422
+[21:58:25] 🔍 DEBUG: normiert = (0.183, 0.516)
+[21:58:25]            x_scaled = 263, y_scaled = 464
+[21:58:25]        y_inverted_scaled = 435
+[21:58:25] 🔍 DEBUG: normiert = (0.177, 0.543)
+[21:58:25]            x_scaled = 254, y_scaled = 488
+[21:58:25]        y_inverted_scaled = 411
+[21:58:25] 🔍 DEBUG: normiert = (0.279, 0.582)
+[21:58:25]            x_scaled = 401, y_scaled = 523
+[21:58:25]        y_inverted_scaled = 376
+[21:58:25] 🔍 DEBUG: normiert = (0.515, 0.574)
+[21:58:25]            x_scaled = 741, y_scaled = 516
+[21:58:25]        y_inverted_scaled = 383
+[21:58:25] 🔍 DEBUG: normiert = (0.601, 0.573)
+[21:58:25]            x_scaled = 866, y_scaled = 515
+[21:58:25]        y_inverted_scaled = 384
+[21:58:25] 🔍 DEBUG: normiert = (0.651, 0.590)
+[21:58:25]            x_scaled = 937, y_scaled = 530
+[21:58:25]        y_inverted_scaled = 369
+[21:58:25] 🔍 DEBUG: normiert = (0.661, 0.603)
+[21:58:25]            x_scaled = 952, y_scaled = 543
+[21:58:25]        y_inverted_scaled = 356
+[21:58:26] 🔍 DEBUG: normiert = (0.679, 0.616)
+[21:58:26]            x_scaled = 977, y_scaled = 554
+[21:58:26]        y_inverted_scaled = 345
+[21:58:26] 🔍 DEBUG: normiert = (0.682, 0.611)
+[21:58:26]            x_scaled = 982, y_scaled = 549
+[21:58:26]        y_inverted_scaled = 350
+[21:58:26] 🔍 DEBUG: normiert = (0.681, 0.613)
+[21:58:26]            x_scaled = 980, y_scaled = 551
+[21:58:26]        y_inverted_scaled = 348
+[21:58:26] 🔍 DEBUG: normiert = (0.701, 0.612)
+[21:58:26]            x_scaled = 1010, y_scaled = 550
+[21:58:26]        y_inverted_scaled = 349
+[21:58:26] 🔍 DEBUG: normiert = (0.736, 0.539)
+[21:58:26]            x_scaled = 1059, y_scaled = 485
+[21:58:26]        y_inverted_scaled = 414
+[21:58:26] 🔍 DEBUG: normiert = (0.749, 0.465)
+[21:58:26]            x_scaled = 1078, y_scaled = 418
+[21:58:26]        y_inverted_scaled = 481
+[21:58:26] 🔍 DEBUG: normiert = (0.765, 0.480)
+[21:58:26]            x_scaled = 1102, y_scaled = 431
+[21:58:26]        y_inverted_scaled = 468
+[21:58:26] 🔍 DEBUG: normiert = (0.751, 0.458)
+[21:58:26]            x_scaled = 1081, y_scaled = 412
+[21:58:26]        y_inverted_scaled = 487
+[21:58:26] 🔍 DEBUG: normiert = (0.737, 0.444)
+[21:58:26]            x_scaled = 1061, y_scaled = 399
+[21:58:26]        y_inverted_scaled = 500
+[21:58:26] 🔍 DEBUG: normiert = (0.735, 0.457)
+[21:58:26]            x_scaled = 1058, y_scaled = 411
+[21:58:26]        y_inverted_scaled = 488
+[21:58:27] 🔍 DEBUG: normiert = (0.738, 0.468)
+[21:58:27]            x_scaled = 1062, y_scaled = 421
+[21:58:27]        y_inverted_scaled = 478
+[21:58:27] 🔍 DEBUG: normiert = (0.744, 0.506)
+[21:58:27]            x_scaled = 1071, y_scaled = 455
+[21:58:27]        y_inverted_scaled = 444
+[21:58:27] 🔍 DEBUG: normiert = (0.783, 0.560)
+[21:58:27]            x_scaled = 1127, y_scaled = 503
+[21:58:27]        y_inverted_scaled = 396
+[21:58:27] 🔍 DEBUG: normiert = (0.807, 0.587)
+[21:58:27]            x_scaled = 1162, y_scaled = 527
+[21:58:27]        y_inverted_scaled = 372
+[21:58:27] 🔍 DEBUG: normiert = (0.828, 0.609)
+[21:58:27]            x_scaled = 1191, y_scaled = 548
+[21:58:27]        y_inverted_scaled = 351
+[21:58:27] 🔍 DEBUG: normiert = (0.815, 0.593)
+[21:58:27]            x_scaled = 1172, y_scaled = 533
+[21:58:27]        y_inverted_scaled = 366
+[21:58:27] 🔍 DEBUG: normiert = (0.795, 0.577)
+[21:58:27]            x_scaled = 1144, y_scaled = 519
+[21:58:27]        y_inverted_scaled = 380
+[21:58:27] 🔍 DEBUG: normiert = (0.810, 0.579)
+[21:58:27]            x_scaled = 1165, y_scaled = 520
+[21:58:27]        y_inverted_scaled = 379
+[21:58:27] 🔍 DEBUG: normiert = (0.812, 0.591)
+[21:58:27]            x_scaled = 1169, y_scaled = 531
+[21:58:27]        y_inverted_scaled = 368
+[21:58:27] 🔍 DEBUG: normiert = (0.801, 0.591)
+[21:58:27]            x_scaled = 1153, y_scaled = 532
+[21:58:27]        y_inverted_scaled = 367
+[21:58:28] 🔍 DEBUG: normiert = (0.791, 0.602)
+[21:58:28]            x_scaled = 1139, y_scaled = 541
+[21:58:28]        y_inverted_scaled = 358
+[21:58:28] 🔍 DEBUG: normiert = (0.794, 0.569)
+[21:58:28]            x_scaled = 1143, y_scaled = 512
+[21:58:28]        y_inverted_scaled = 387
+[21:58:28] 🔍 DEBUG: normiert = (0.795, 0.585)
+[21:58:28]            x_scaled = 1144, y_scaled = 526
+[21:58:28]        y_inverted_scaled = 373
+[21:58:28] 🔍 DEBUG: normiert = (0.799, 0.600)
+[21:58:28]            x_scaled = 1149, y_scaled = 540
+[21:58:28]        y_inverted_scaled = 359
+[21:58:28] 🔍 DEBUG: normiert = (0.812, 0.615)
+[21:58:28]            x_scaled = 1168, y_scaled = 553
+[21:58:28]        y_inverted_scaled = 346
+[21:58:28] 🔍 DEBUG: normiert = (0.799, 0.614)
+[21:58:28]            x_scaled = 1149, y_scaled = 552
+[21:58:28]        y_inverted_scaled = 347
+[21:58:28] 🔍 DEBUG: normiert = (0.775, 0.607)
+[21:58:28]            x_scaled = 1116, y_scaled = 546
+[21:58:28]        y_inverted_scaled = 353
+[21:58:28] 🔍 DEBUG: normiert = (0.771, 0.592)
+[21:58:28]            x_scaled = 1110, y_scaled = 532
+[21:58:28]        y_inverted_scaled = 367
+[21:58:28] 🔍 DEBUG: normiert = (0.784, 0.589)
+[21:58:28]            x_scaled = 1128, y_scaled = 530
+[21:58:28]        y_inverted_scaled = 369
+[21:58:28] 🔍 DEBUG: normiert = (0.770, 0.630)
+[21:58:28]            x_scaled = 1108, y_scaled = 567
+[21:58:28]        y_inverted_scaled = 332
+[21:58:29] 🔍 DEBUG: normiert = (0.769, 0.642)
+[21:58:29]            x_scaled = 1107, y_scaled = 577
+[21:58:29]        y_inverted_scaled = 322
+[21:58:29] 🔍 DEBUG: normiert = (0.750, 0.622)
+[21:58:29]            x_scaled = 1079, y_scaled = 559
+[21:58:29]        y_inverted_scaled = 340
+[21:58:29] 🔍 DEBUG: normiert = (0.697, 0.630)
+[21:58:29]            x_scaled = 1004, y_scaled = 567
+[21:58:29]        y_inverted_scaled = 332
+[21:58:29] 🔍 DEBUG: normiert = (0.682, 0.619)
+[21:58:29]            x_scaled = 982, y_scaled = 557
+[21:58:29]        y_inverted_scaled = 342
+[21:58:29] 🔍 DEBUG: normiert = (0.680, 0.620)
+[21:58:29]            x_scaled = 979, y_scaled = 558
+[21:58:29]        y_inverted_scaled = 341
+[21:58:29] 🔍 DEBUG: normiert = (0.678, 0.429)
+[21:58:29]            x_scaled = 975, y_scaled = 386
+[21:58:29]        y_inverted_scaled = 513
+[21:58:29] 🔍 DEBUG: normiert = (0.659, 0.358)
+[21:58:29]            x_scaled = 949, y_scaled = 321
+[21:58:29]        y_inverted_scaled = 578
+[21:58:29] 🔍 DEBUG: normiert = (0.605, 0.310)
+[21:58:29]            x_scaled = 871, y_scaled = 278
+[21:58:29]        y_inverted_scaled = 621
+[21:58:29] 🔍 DEBUG: normiert = (0.621, 0.317)
+[21:58:29]            x_scaled = 894, y_scaled = 285
+[21:58:29]        y_inverted_scaled = 614
+[21:58:29] 🔍 DEBUG: normiert = (0.642, 0.295)
+[21:58:29]            x_scaled = 924, y_scaled = 265
+[21:58:29]        y_inverted_scaled = 634
+[21:58:30] 🔍 DEBUG: normiert = (0.626, 0.280)
+[21:58:30]            x_scaled = 900, y_scaled = 251
+[21:58:30]        y_inverted_scaled = 648
+[21:58:30] 🔍 DEBUG: normiert = (0.651, 0.310)
+[21:58:30]            x_scaled = 937, y_scaled = 278
+[21:58:30]        y_inverted_scaled = 621
+[21:58:30] 🔍 DEBUG: normiert = (0.620, 0.288)
+[21:58:30]            x_scaled = 893, y_scaled = 259
+[21:58:30]        y_inverted_scaled = 640
+[21:58:30] 🔍 DEBUG: normiert = (0.647, 0.273)
+[21:58:30]            x_scaled = 931, y_scaled = 245
+[21:58:30]        y_inverted_scaled = 654
+[21:58:30] 🔍 DEBUG: normiert = (0.629, 0.288)
+[21:58:30]            x_scaled = 906, y_scaled = 259
+[21:58:30]        y_inverted_scaled = 640
+[21:58:30] 🔍 DEBUG: normiert = (0.617, 0.285)
+[21:58:30]            x_scaled = 888, y_scaled = 256
+[21:58:30]        y_inverted_scaled = 643
+[21:58:30] 🔍 DEBUG: normiert = (0.637, 0.287)
+[21:58:30]            x_scaled = 917, y_scaled = 258
+[21:58:30]        y_inverted_scaled = 641
+[21:58:30] 🔍 DEBUG: normiert = (0.604, 0.274)
+[21:58:30]            x_scaled = 870, y_scaled = 246
+[21:58:30]        y_inverted_scaled = 653
+[21:58:30] 🔍 DEBUG: normiert = (0.558, 0.301)
+[21:58:30]            x_scaled = 803, y_scaled = 271
+[21:58:30]        y_inverted_scaled = 628
+[21:58:30] 🔍 DEBUG: normiert = (0.520, 0.291)
+[21:58:30]            x_scaled = 748, y_scaled = 261
+[21:58:30]        y_inverted_scaled = 638
+[21:58:31] 🔍 DEBUG: normiert = (0.472, 0.269)
+[21:58:31]            x_scaled = 679, y_scaled = 242
+[21:58:31]        y_inverted_scaled = 657
+[21:58:31] 🔍 DEBUG: normiert = (0.419, 0.253)
+[21:58:31]            x_scaled = 602, y_scaled = 227
+[21:58:31]        y_inverted_scaled = 672
+[21:58:31] 🔍 DEBUG: normiert = (0.390, 0.242)
+[21:58:31]            x_scaled = 561, y_scaled = 218
+[21:58:31]        y_inverted_scaled = 681
+[21:58:31] 🔍 DEBUG: normiert = (0.297, 0.316)
+[21:58:31]            x_scaled = 427, y_scaled = 284
+[21:58:31]        y_inverted_scaled = 615
+[21:58:31] 🔍 DEBUG: normiert = (0.245, 0.349)
+[21:58:31]            x_scaled = 353, y_scaled = 314
+[21:58:31]        y_inverted_scaled = 585
+[21:58:31] 🔍 DEBUG: normiert = (0.214, 0.339)
+[21:58:31]            x_scaled = 307, y_scaled = 305
+[21:58:31]        y_inverted_scaled = 594
+[21:58:31] 🔍 DEBUG: normiert = (0.203, 0.364)
+[21:58:31]            x_scaled = 292, y_scaled = 327
+[21:58:31]        y_inverted_scaled = 572
+[21:58:31] 🔍 DEBUG: normiert = (0.170, 0.373)
+[21:58:31]            x_scaled = 245, y_scaled = 336
+[21:58:31]        y_inverted_scaled = 563
+[21:58:31] 🔍 DEBUG: normiert = (0.163, 0.373)
+[21:58:31]            x_scaled = 234, y_scaled = 335
+[21:58:31]        y_inverted_scaled = 564
+[21:58:31] 🔍 DEBUG: normiert = (0.163, 0.387)
+[21:58:31]            x_scaled = 234, y_scaled = 348
+[21:58:31]        y_inverted_scaled = 551
+[21:58:32] 🔍 DEBUG: normiert = (0.160, 0.386)
+[21:58:32]            x_scaled = 230, y_scaled = 347
+[21:58:32]        y_inverted_scaled = 552
+[21:58:32] 🔍 DEBUG: normiert = (0.160, 0.406)
+[21:58:32]            x_scaled = 230, y_scaled = 365
+[21:58:32]        y_inverted_scaled = 534
+[21:58:32] 🔍 DEBUG: normiert = (0.145, 0.505)
+[21:58:32]            x_scaled = 208, y_scaled = 454
+[21:58:32]        y_inverted_scaled = 445
+[21:58:32] 🔍 DEBUG: normiert = (0.154, 0.556)
+[21:58:32]            x_scaled = 222, y_scaled = 500
+[21:58:32]        y_inverted_scaled = 399
+[21:58:32] 🔍 DEBUG: normiert = (0.120, 0.732)
+[21:58:32]            x_scaled = 172, y_scaled = 658
+[21:58:32]        y_inverted_scaled = 241
+[21:58:32] 🔍 DEBUG: normiert = (0.113, 0.850)
+[21:58:32]            x_scaled = 163, y_scaled = 765
+[21:58:32]        y_inverted_scaled = 134
+[21:58:32] 🔍 DEBUG: normiert = (0.117, 0.888)
+[21:58:32]            x_scaled = 168, y_scaled = 799
+[21:58:32]        y_inverted_scaled = 100
+[21:58:32] 🔍 DEBUG: normiert = (0.108, 0.926)
+[21:58:32]            x_scaled = 155, y_scaled = 833
+[21:58:32]        y_inverted_scaled = 66
+[21:58:32] 🔍 DEBUG: normiert = (0.108, 0.944)
+[21:58:32]            x_scaled = 155, y_scaled = 849
+[21:58:32]        y_inverted_scaled = 50
+[21:58:32] 🔍 DEBUG: normiert = (0.099, 0.958)
+[21:58:32]            x_scaled = 142, y_scaled = 862
+[21:58:32]        y_inverted_scaled = 37
+[21:58:33] 🔍 DEBUG: normiert = (0.106, 0.952)
+[21:58:33]            x_scaled = 152, y_scaled = 856
+[21:58:33]        y_inverted_scaled = 43
+[21:58:33] 🔍 DEBUG: normiert = (0.112, 0.942)
+[21:58:33]            x_scaled = 161, y_scaled = 848
+[21:58:33]        y_inverted_scaled = 51
+[21:58:33] 🔍 DEBUG: normiert = (0.105, 0.956)
+[21:58:33]            x_scaled = 150, y_scaled = 860
+[21:58:33]        y_inverted_scaled = 39
+[21:58:33] 🔍 DEBUG: normiert = (0.096, 0.997)
+[21:58:33]            x_scaled = 138, y_scaled = 897
+[21:58:33]        y_inverted_scaled = 2
+[21:58:33] 🔍 DEBUG: normiert = (0.095, 0.976)
+[21:58:33]            x_scaled = 137, y_scaled = 878
+[21:58:33]        y_inverted_scaled = 21
+[21:58:33] 🔍 DEBUG: normiert = (0.107, 0.979)
+[21:58:33]            x_scaled = 153, y_scaled = 881
+[21:58:33]        y_inverted_scaled = 18
+[21:58:33] 🔍 DEBUG: normiert = (0.125, 0.960)
+[21:58:33]            x_scaled = 180, y_scaled = 863
+[21:58:33]        y_inverted_scaled = 36
+[21:58:33] 🔍 DEBUG: normiert = (0.141, 0.944)
+[21:58:33]            x_scaled = 203, y_scaled = 849
+[21:58:33]        y_inverted_scaled = 50
+[21:58:33] 🔍 DEBUG: normiert = (0.124, 0.968)
+[21:58:33]            x_scaled = 178, y_scaled = 870
+[21:58:33]        y_inverted_scaled = 29
+[21:58:33] 🔍 DEBUG: normiert = (0.122, 0.991)
+[21:58:33]            x_scaled = 175, y_scaled = 892
+[21:58:33]        y_inverted_scaled = 7
+[21:58:34] 🔍 DEBUG: normiert = (0.182, 0.983)
+[21:58:34]            x_scaled = 262, y_scaled = 884
+[21:58:34]        y_inverted_scaled = 15
+[21:58:34] 🔍 DEBUG: normiert = (0.259, 0.997)
+[21:58:34]            x_scaled = 372, y_scaled = 896
+[21:58:34]        y_inverted_scaled = 3
+[21:58:34] 🔍 DEBUG: normiert = (0.281, 0.974)
+[21:58:34]            x_scaled = 404, y_scaled = 876
+[21:58:34]        y_inverted_scaled = 23
+[21:58:34] 🔍 DEBUG: normiert = (0.291, 0.947)
+[21:58:34]            x_scaled = 418, y_scaled = 852
+[21:58:34]        y_inverted_scaled = 47
+[21:58:34] 🔍 DEBUG: normiert = (0.346, 0.956)
+[21:58:34]            x_scaled = 497, y_scaled = 860
+[21:58:34]        y_inverted_scaled = 39
+[21:58:34] 🔍 DEBUG: normiert = (0.370, 0.936)
+[21:58:34]            x_scaled = 533, y_scaled = 842
+[21:58:34]        y_inverted_scaled = 57
+[21:58:34] 🔍 DEBUG: normiert = (0.390, 0.934)
+[21:58:34]            x_scaled = 561, y_scaled = 840
+[21:58:34]        y_inverted_scaled = 59
+[21:58:34] 🔍 DEBUG: normiert = (0.385, 0.904)
+[21:58:34]            x_scaled = 553, y_scaled = 813
+[21:58:34]        y_inverted_scaled = 86
+[21:58:34] 🔍 DEBUG: normiert = (0.390, 0.945)
+[21:58:34]            x_scaled = 561, y_scaled = 850
+[21:58:34]        y_inverted_scaled = 49
+[21:58:34] 🔍 DEBUG: normiert = (0.390, 0.946)
+[21:58:34]            x_scaled = 561, y_scaled = 851
+[21:58:34]        y_inverted_scaled = 48
+[21:58:35] 🔍 DEBUG: normiert = (0.379, 0.952)
+[21:58:35]            x_scaled = 545, y_scaled = 856
+[21:58:35]        y_inverted_scaled = 43
+[21:58:35] 🔍 DEBUG: normiert = (0.381, 0.949)
+[21:58:35]            x_scaled = 547, y_scaled = 854
+[21:58:35]        y_inverted_scaled = 45
+[21:58:35] 🔍 DEBUG: normiert = (0.383, 0.940)
+[21:58:35]            x_scaled = 551, y_scaled = 845
+[21:58:35]        y_inverted_scaled = 54
+[21:58:35] 🔍 DEBUG: normiert = (0.408, 0.945)
+[21:58:35]            x_scaled = 587, y_scaled = 850
+[21:58:35]        y_inverted_scaled = 49
+[21:58:35] 🔍 DEBUG: normiert = (0.568, 0.905)
+[21:58:35]            x_scaled = 818, y_scaled = 814
+[21:58:35]        y_inverted_scaled = 85
+[21:58:35] 🔍 DEBUG: normiert = (0.644, 0.869)
+[21:58:35]            x_scaled = 927, y_scaled = 782
+[21:58:35]        y_inverted_scaled = 117
+[21:58:35] 🔍 DEBUG: normiert = (0.664, 0.863)
+[21:58:35]            x_scaled = 955, y_scaled = 776
+[21:58:35]        y_inverted_scaled = 123
+[21:58:35] 🔍 DEBUG: normiert = (0.670, 0.882)
+[21:58:35]            x_scaled = 964, y_scaled = 793
+[21:58:35]        y_inverted_scaled = 106
+[21:58:35] 🔍 DEBUG: normiert = (0.683, 0.870)
+[21:58:35]            x_scaled = 983, y_scaled = 783
+[21:58:35]        y_inverted_scaled = 116
+[21:58:35] 🔍 DEBUG: normiert = (0.676, 0.871)
+[21:58:35]            x_scaled = 973, y_scaled = 783
+[21:58:35]        y_inverted_scaled = 116
+[21:58:36] 🔍 DEBUG: normiert = (0.671, 0.855)
+[21:58:36]            x_scaled = 966, y_scaled = 769
+[21:58:36]        y_inverted_scaled = 130
+[21:58:36] 🔍 DEBUG: normiert = (0.676, 0.866)
+[21:58:36]            x_scaled = 974, y_scaled = 779
+[21:58:36]        y_inverted_scaled = 120
+[21:58:36] 🔍 DEBUG: normiert = (0.705, 0.870)
+[21:58:36]            x_scaled = 1015, y_scaled = 782
+[21:58:36]        y_inverted_scaled = 117
+[21:58:36] 🔍 DEBUG: normiert = (0.717, 0.881)
+[21:58:36]            x_scaled = 1032, y_scaled = 793
+[21:58:36]        y_inverted_scaled = 106
+[21:58:36] 🔍 DEBUG: normiert = (0.706, 0.884)
+[21:58:36]            x_scaled = 1017, y_scaled = 795
+[21:58:36]        y_inverted_scaled = 104
+[21:58:36] 🔍 DEBUG: normiert = (0.711, 0.871)
+[21:58:36]            x_scaled = 1024, y_scaled = 783
+[21:58:36]        y_inverted_scaled = 116
+[21:58:36] 🔍 DEBUG: normiert = (0.726, 0.877)
+[21:58:36]            x_scaled = 1044, y_scaled = 789
+[21:58:36]        y_inverted_scaled = 110
+[21:58:36] 🔍 DEBUG: normiert = (0.706, 0.882)
+[21:58:36]            x_scaled = 1015, y_scaled = 793
+[21:58:36]        y_inverted_scaled = 106
+[21:58:36] 🔍 DEBUG: normiert = (0.716, 0.878)
+[21:58:36]            x_scaled = 1031, y_scaled = 790
+[21:58:36]        y_inverted_scaled = 109
+[21:58:36] 🔍 DEBUG: normiert = (0.706, 0.857)
+[21:58:36]            x_scaled = 1017, y_scaled = 771
+[21:58:36]        y_inverted_scaled = 128
+[21:58:37] 🔍 DEBUG: normiert = (0.713, 0.874)
+[21:58:37]            x_scaled = 1027, y_scaled = 786
+[21:58:37]        y_inverted_scaled = 113
+[21:58:37] 🔍 DEBUG: normiert = (0.736, 0.865)
+[21:58:37]            x_scaled = 1059, y_scaled = 778
+[21:58:37]        y_inverted_scaled = 121
+[21:58:37] 🔍 DEBUG: normiert = (0.753, 0.860)
+[21:58:37]            x_scaled = 1084, y_scaled = 773
+[21:58:37]        y_inverted_scaled = 126
+[21:58:37] 🔍 DEBUG: normiert = (0.752, 0.853)
+[21:58:37]            x_scaled = 1082, y_scaled = 767
+[21:58:37]        y_inverted_scaled = 132
+[21:58:37] 🔍 DEBUG: normiert = (0.798, 0.878)
+[21:58:37]            x_scaled = 1148, y_scaled = 789
+[21:58:37]        y_inverted_scaled = 110
+[21:58:37] 🔍 DEBUG: normiert = (0.801, 0.873)
+[21:58:37]            x_scaled = 1152, y_scaled = 785
+[21:58:37]        y_inverted_scaled = 114
+[21:58:37] 🔍 DEBUG: normiert = (0.815, 0.864)
+[21:58:37]            x_scaled = 1173, y_scaled = 777
+[21:58:37]        y_inverted_scaled = 122
+[21:58:37] 🔍 DEBUG: normiert = (0.803, 0.867)
+[21:58:37]            x_scaled = 1156, y_scaled = 779
+[21:58:37]        y_inverted_scaled = 120
+[21:58:37] 🔍 DEBUG: normiert = (0.807, 0.860)
+[21:58:37]            x_scaled = 1162, y_scaled = 774
+[21:58:37]        y_inverted_scaled = 125
+[21:58:37] 🔍 DEBUG: normiert = (0.791, 0.859)
+[21:58:37]            x_scaled = 1139, y_scaled = 773
+[21:58:37]        y_inverted_scaled = 126
+[21:58:38] 🔍 DEBUG: normiert = (0.792, 0.855)
+[21:58:38]            x_scaled = 1140, y_scaled = 769
+[21:58:38]        y_inverted_scaled = 130
+[21:58:38] 🔍 DEBUG: normiert = (0.804, 0.860)
+[21:58:38]            x_scaled = 1158, y_scaled = 774
+[21:58:38]        y_inverted_scaled = 125
+[21:58:38] 🔍 DEBUG: normiert = (0.812, 0.854)
+[21:58:38]            x_scaled = 1169, y_scaled = 768
+[21:58:38]        y_inverted_scaled = 131
+[21:58:38] 🔍 DEBUG: normiert = (0.804, 0.853)
+[21:58:38]            x_scaled = 1157, y_scaled = 767
+[21:58:38]        y_inverted_scaled = 132
+[21:58:38] 🔍 DEBUG: normiert = (0.780, 0.864)
+[21:58:38]            x_scaled = 1123, y_scaled = 777
+[21:58:38]        y_inverted_scaled = 122
+[21:58:38] 🔍 DEBUG: normiert = (0.777, 0.865)
+[21:58:38]            x_scaled = 1119, y_scaled = 778
+[21:58:38]        y_inverted_scaled = 121
+[21:58:38] 🔍 DEBUG: normiert = (0.791, 0.845)
+[21:58:38]            x_scaled = 1138, y_scaled = 760
+[21:58:38]        y_inverted_scaled = 139
+[21:58:38] 🔍 DEBUG: normiert = (0.809, 0.869)
+[21:58:38]            x_scaled = 1165, y_scaled = 782
+[21:58:38]        y_inverted_scaled = 117
+[21:58:38] 🔍 DEBUG: normiert = (0.809, 0.865)
+[21:58:38]            x_scaled = 1165, y_scaled = 778
+[21:58:38]        y_inverted_scaled = 121
+[21:58:38] 🔍 DEBUG: normiert = (0.806, 0.871)
+[21:58:38]            x_scaled = 1160, y_scaled = 783
+[21:58:38]        y_inverted_scaled = 116
+[21:58:39] 🔍 DEBUG: normiert = (0.796, 0.900)
+[21:58:39]            x_scaled = 1146, y_scaled = 809
+[21:58:39]        y_inverted_scaled = 90
+[21:58:39] 🔍 DEBUG: normiert = (0.814, 0.930)
+[21:58:39]            x_scaled = 1171, y_scaled = 837
+[21:58:39]        y_inverted_scaled = 62
+[21:58:39] 🔍 DEBUG: normiert = (0.802, 0.926)
+[21:58:39]            x_scaled = 1155, y_scaled = 833
+[21:58:39]        y_inverted_scaled = 66
+[21:58:39] 🔍 DEBUG: normiert = (0.799, 0.922)
+[21:58:39]            x_scaled = 1150, y_scaled = 829
+[21:58:39]        y_inverted_scaled = 70
+[21:58:39] 🔍 DEBUG: normiert = (0.801, 0.921)
+[21:58:39]            x_scaled = 1153, y_scaled = 828
+[21:58:39]        y_inverted_scaled = 71
+[21:58:39] 🔍 DEBUG: normiert = (0.796, 0.911)
+[21:58:39]            x_scaled = 1145, y_scaled = 819
+[21:58:39]        y_inverted_scaled = 80
+[21:58:39] 🔍 DEBUG: normiert = (0.801, 0.912)
+[21:58:39]            x_scaled = 1153, y_scaled = 821
+[21:58:39]        y_inverted_scaled = 78
+[21:58:39] 🔍 DEBUG: normiert = (0.788, 0.911)
+[21:58:39]            x_scaled = 1135, y_scaled = 819
+[21:58:39]        y_inverted_scaled = 80
+[21:58:39] 🔍 DEBUG: normiert = (0.778, 0.903)
+[21:58:39]            x_scaled = 1120, y_scaled = 812
+[21:58:39]        y_inverted_scaled = 87
+[21:58:39] 🔍 DEBUG: normiert = (0.772, 0.897)
+[21:58:39]            x_scaled = 1111, y_scaled = 807
+[21:58:39]        y_inverted_scaled = 92
+[21:58:40] 🔍 DEBUG: normiert = (0.795, 0.840)
+[21:58:40]            x_scaled = 1144, y_scaled = 755
+[21:58:40]        y_inverted_scaled = 144
+[21:58:40] 🔍 DEBUG: normiert = (0.802, 0.817)
+[21:58:40]            x_scaled = 1154, y_scaled = 735
+[21:58:40]        y_inverted_scaled = 164
+[21:58:40] 🔍 DEBUG: normiert = (0.789, 0.812)
+[21:58:40]            x_scaled = 1135, y_scaled = 730
+[21:58:40]        y_inverted_scaled = 169
+[21:58:40] 🔍 DEBUG: normiert = (0.791, 0.524)
+[21:58:40]            x_scaled = 1138, y_scaled = 471
+[21:58:40]        y_inverted_scaled = 428
+[21:58:40] 🔍 DEBUG: normiert = (0.796, 0.469)
+[21:58:40]            x_scaled = 1146, y_scaled = 422
+[21:58:40]        y_inverted_scaled = 477
+[21:58:40] 🔍 DEBUG: normiert = (0.778, 0.488)
+[21:58:40]            x_scaled = 1119, y_scaled = 439
+[21:58:40]        y_inverted_scaled = 460
+[21:58:40] 🔍 DEBUG: normiert = (0.726, 0.443)
+[21:58:40]            x_scaled = 1046, y_scaled = 399
+[21:58:40]        y_inverted_scaled = 500
+[21:58:40] 🔍 DEBUG: normiert = (0.658, 0.404)
+[21:58:40]            x_scaled = 947, y_scaled = 363
+[21:58:40]        y_inverted_scaled = 536
+[21:58:40] 🔍 DEBUG: normiert = (0.614, 0.386)
+[21:58:40]            x_scaled = 884, y_scaled = 347
+[21:58:40]        y_inverted_scaled = 552
+[21:58:40] 🔍 DEBUG: normiert = (0.633, 0.367)
+[21:58:40]            x_scaled = 910, y_scaled = 329
+[21:58:40]        y_inverted_scaled = 570
+[21:58:41] 🔍 DEBUG: normiert = (0.621, 0.399)
+[21:58:41]            x_scaled = 894, y_scaled = 359
+[21:58:41]        y_inverted_scaled = 540
+[21:58:41] 🔍 DEBUG: normiert = (0.623, 0.420)
+[21:58:41]            x_scaled = 896, y_scaled = 378
+[21:58:41]        y_inverted_scaled = 521
+[21:58:41] 🔍 DEBUG: normiert = (0.592, 0.375)
+[21:58:41]            x_scaled = 852, y_scaled = 337
+[21:58:41]        y_inverted_scaled = 562
+[21:58:41] 🔍 DEBUG: normiert = (0.631, 0.380)
+[21:58:41]            x_scaled = 908, y_scaled = 341
+[21:58:41]        y_inverted_scaled = 558
+[21:58:41] 🔍 DEBUG: normiert = (0.544, 0.362)
+[21:58:41]            x_scaled = 783, y_scaled = 325
+[21:58:41]        y_inverted_scaled = 574
+[21:58:41] 🔍 DEBUG: normiert = (0.348, 0.387)
+[21:58:41]            x_scaled = 501, y_scaled = 348
+[21:58:41]        y_inverted_scaled = 551
+[21:58:41] 🔍 DEBUG: normiert = (0.249, 0.405)
+[21:58:41]            x_scaled = 358, y_scaled = 364
+[21:58:41]        y_inverted_scaled = 535
+[21:58:41] 🔍 DEBUG: normiert = (0.206, 0.432)
+[21:58:41]            x_scaled = 296, y_scaled = 388
+[21:58:41]        y_inverted_scaled = 511
+[21:58:41] 🔍 DEBUG: normiert = (0.179, 0.430)
+[21:58:41]            x_scaled = 257, y_scaled = 387
+[21:58:41]        y_inverted_scaled = 512
+[21:58:41] 🔍 DEBUG: normiert = (0.161, 0.421)
+[21:58:41]            x_scaled = 232, y_scaled = 378
+[21:58:41]        y_inverted_scaled = 521
+[21:58:42] 🔍 DEBUG: normiert = (0.170, 0.382)
+[21:58:42]            x_scaled = 244, y_scaled = 343
+[21:58:42]        y_inverted_scaled = 556
+[21:58:42] 🔍 DEBUG: normiert = (0.170, 0.386)
+[21:58:42]            x_scaled = 244, y_scaled = 347
+[21:58:42]        y_inverted_scaled = 552
+[21:58:42] 🔍 DEBUG: normiert = (0.231, 0.424)
+[21:58:42]            x_scaled = 332, y_scaled = 381
+[21:58:42]        y_inverted_scaled = 518
+[21:58:42] 🔍 DEBUG: normiert = (0.288, 0.488)
+[21:58:42]            x_scaled = 414, y_scaled = 439
+[21:58:42]        y_inverted_scaled = 460
+[21:58:42] 🔍 DEBUG: normiert = (0.328, 0.450)
+[21:58:42]            x_scaled = 472, y_scaled = 404
+[21:58:42]        y_inverted_scaled = 495
+[21:58:42] 🔍 DEBUG: normiert = (0.316, 0.466)
+[21:58:42]            x_scaled = 455, y_scaled = 419
+[21:58:42]        y_inverted_scaled = 480
+[21:58:42] 🔍 DEBUG: normiert = (0.329, 0.480)
+[21:58:42]            x_scaled = 473, y_scaled = 431
+[21:58:42]        y_inverted_scaled = 468
+[21:58:42] 🔍 DEBUG: normiert = (0.385, 0.426)
+[21:58:42]            x_scaled = 554, y_scaled = 383
+[21:58:42]        y_inverted_scaled = 516
+[21:58:42] 🔍 DEBUG: normiert = (0.413, 0.462)
+[21:58:42]            x_scaled = 595, y_scaled = 415
+[21:58:42]        y_inverted_scaled = 484
+[21:58:42] 🔍 DEBUG: normiert = (0.437, 0.457)
+[21:58:42]            x_scaled = 629, y_scaled = 411
+[21:58:42]        y_inverted_scaled = 488
+[21:58:43] 🔍 DEBUG: normiert = (0.632, 0.420)
+[21:58:43]            x_scaled = 909, y_scaled = 377
+[21:58:43]        y_inverted_scaled = 522
+[21:58:43] 🔍 DEBUG: normiert = (0.697, 0.454)
+[21:58:43]            x_scaled = 1003, y_scaled = 409
+[21:58:43]        y_inverted_scaled = 490
+[21:58:43] 🔍 DEBUG: normiert = (0.729, 0.456)
+[21:58:43]            x_scaled = 1050, y_scaled = 410
+[21:58:43]        y_inverted_scaled = 489
+[21:58:43] 🔍 DEBUG: normiert = (0.715, 0.405)
+[21:58:43]            x_scaled = 1029, y_scaled = 364
+[21:58:43]        y_inverted_scaled = 535
+[21:58:43] 🔍 DEBUG: normiert = (0.739, 0.407)
+[21:58:43]            x_scaled = 1064, y_scaled = 366
+[21:58:43]        y_inverted_scaled = 533
+[21:58:43] 🔍 DEBUG: normiert = (0.727, 0.435)
+[21:58:43]            x_scaled = 1047, y_scaled = 391
+[21:58:43]        y_inverted_scaled = 508
+[21:58:43] 🔍 DEBUG: normiert = (0.707, 0.426)
+[21:58:43]            x_scaled = 1017, y_scaled = 383
+[21:58:43]        y_inverted_scaled = 516
+[21:58:43] 🔍 DEBUG: normiert = (0.717, 0.419)
+[21:58:43]            x_scaled = 1032, y_scaled = 377
+[21:58:43]        y_inverted_scaled = 522
+[21:58:43] 🔍 DEBUG: normiert = (0.699, 0.408)
+[21:58:43]            x_scaled = 1006, y_scaled = 367
+[21:58:43]        y_inverted_scaled = 532
+[21:58:43] 🔍 DEBUG: normiert = (0.665, 0.391)
+[21:58:43]            x_scaled = 957, y_scaled = 351
+[21:58:43]        y_inverted_scaled = 548
+[21:58:44] 🔍 DEBUG: normiert = (0.637, 0.424)
+[21:58:44]            x_scaled = 917, y_scaled = 381
+[21:58:44]        y_inverted_scaled = 518
+[21:58:44] 🔍 DEBUG: normiert = (0.636, 0.416)
+[21:58:44]            x_scaled = 916, y_scaled = 374
+[21:58:44]        y_inverted_scaled = 525
+[21:58:44] 🔍 DEBUG: normiert = (0.623, 0.418)
+[21:58:44]            x_scaled = 896, y_scaled = 375
+[21:58:44]        y_inverted_scaled = 524
+[21:58:44] 🔍 DEBUG: normiert = (0.635, 0.415)
+[21:58:44]            x_scaled = 914, y_scaled = 373
+[21:58:44]        y_inverted_scaled = 526
+[21:58:44] 🔍 DEBUG: normiert = (0.634, 0.401)
+[21:58:44]            x_scaled = 913, y_scaled = 361
+[21:58:44]        y_inverted_scaled = 538
+[21:58:44] 🔍 DEBUG: normiert = (0.617, 0.431)
+[21:58:44]            x_scaled = 888, y_scaled = 388
+[21:58:44]        y_inverted_scaled = 511
+[21:58:44] 🔍 DEBUG: normiert = (0.629, 0.444)
+[21:58:44]            x_scaled = 905, y_scaled = 399
+[21:58:44]        y_inverted_scaled = 500
+[21:58:44] 🔍 DEBUG: normiert = (0.617, 0.413)
+[21:58:44]            x_scaled = 888, y_scaled = 371
+[21:58:44]        y_inverted_scaled = 528
+[21:58:44] 🔍 DEBUG: normiert = (0.628, 0.405)
+[21:58:44]            x_scaled = 903, y_scaled = 364
+[21:58:44]        y_inverted_scaled = 535
+[21:58:44] 🔍 DEBUG: normiert = (0.626, 0.409)
+[21:58:44]            x_scaled = 901, y_scaled = 368
+[21:58:44]        y_inverted_scaled = 531
+[21:58:45] 🔍 DEBUG: normiert = (0.630, 0.405)
+[21:58:45]            x_scaled = 906, y_scaled = 364
+[21:58:45]        y_inverted_scaled = 535
+[21:58:45] 🔍 DEBUG: normiert = (0.618, 0.402)
+[21:58:45]            x_scaled = 889, y_scaled = 362
+[21:58:45]        y_inverted_scaled = 537
+[21:58:45] 🔍 DEBUG: normiert = (0.723, 0.619)
+[21:58:45]            x_scaled = 1041, y_scaled = 557
+[21:58:45]        y_inverted_scaled = 342
+[21:58:45] 🔍 DEBUG: normiert = (0.777, 0.734)
+[21:58:45]            x_scaled = 1119, y_scaled = 660
+[21:58:45]        y_inverted_scaled = 239
+[21:58:45] 🔍 DEBUG: normiert = (0.780, 0.790)
+[21:58:45]            x_scaled = 1123, y_scaled = 711
+[21:58:45]        y_inverted_scaled = 188
+[21:58:45] 🔍 DEBUG: normiert = (0.791, 0.822)
+[21:58:45]            x_scaled = 1138, y_scaled = 740
+[21:58:45]        y_inverted_scaled = 159
+[21:58:45] 🔍 DEBUG: normiert = (0.809, 0.840)
+[21:58:45]            x_scaled = 1164, y_scaled = 756
+[21:58:45]        y_inverted_scaled = 143
+[21:58:45] 🔍 DEBUG: normiert = (0.837, 0.870)
+[21:58:45]            x_scaled = 1205, y_scaled = 782
+[21:58:45]        y_inverted_scaled = 117
+[21:58:45] 🔍 DEBUG: normiert = (0.433, 0.767)
+[21:58:45]            x_scaled = 624, y_scaled = 689
+[21:58:45]        y_inverted_scaled = 210
+[21:58:45] 🔍 DEBUG: normiert = (0.244, 0.722)
+[21:58:45]            x_scaled = 352, y_scaled = 649
+[21:58:45]        y_inverted_scaled = 250
+[21:58:46] 🔍 DEBUG: normiert = (0.176, 0.725)
+[21:58:46]            x_scaled = 253, y_scaled = 652
+[21:58:46]        y_inverted_scaled = 247
+[21:58:46] 🔍 DEBUG: normiert = (0.173, 0.651)
+[21:58:46]            x_scaled = 249, y_scaled = 586
+[21:58:46]        y_inverted_scaled = 313
+[21:58:46] 🔍 DEBUG: normiert = (0.177, 0.503)
+[21:58:46]            x_scaled = 254, y_scaled = 453
+[21:58:46]        y_inverted_scaled = 446
+[21:58:46] 🔍 DEBUG: normiert = (0.169, 0.450)
+[21:58:46]            x_scaled = 243, y_scaled = 404
+[21:58:46]        y_inverted_scaled = 495
+[21:58:46] 🔍 DEBUG: normiert = (0.176, 0.444)
+[21:58:46]            x_scaled = 253, y_scaled = 399
+[21:58:46]        y_inverted_scaled = 500
+[21:58:46] 🔍 DEBUG: normiert = (0.175, 0.445)
+[21:58:46]            x_scaled = 251, y_scaled = 400
+[21:58:46]        y_inverted_scaled = 499
+[21:58:46] 🔍 DEBUG: normiert = (0.178, 0.408)
+[21:58:46]            x_scaled = 256, y_scaled = 367
+[21:58:46]        y_inverted_scaled = 532
+[21:58:46] 🔍 DEBUG: normiert = (0.177, 0.397)
+[21:58:46]            x_scaled = 254, y_scaled = 357
+[21:58:46]        y_inverted_scaled = 542
+[21:58:46] 🔍 DEBUG: normiert = (0.181, 0.414)
+[21:58:46]            x_scaled = 260, y_scaled = 372
+[21:58:46]        y_inverted_scaled = 527
+[21:58:46] 🔍 DEBUG: normiert = (0.167, 0.409)
+[21:58:46]            x_scaled = 239, y_scaled = 368
+[21:58:46]        y_inverted_scaled = 531
+[21:58:47] 🔍 DEBUG: normiert = (0.169, 0.388)
+[21:58:47]            x_scaled = 243, y_scaled = 349
+[21:58:47]        y_inverted_scaled = 550
+[21:58:47] 🔍 DEBUG: normiert = (0.169, 0.399)
+[21:58:47]            x_scaled = 243, y_scaled = 358
+[21:58:47]        y_inverted_scaled = 541
+[21:58:47] 🔍 DEBUG: normiert = (0.169, 0.397)
+[21:58:47]            x_scaled = 242, y_scaled = 357
+[21:58:47]        y_inverted_scaled = 542
+[21:58:47] 🔍 DEBUG: normiert = (0.157, 0.420)
+[21:58:47]            x_scaled = 226, y_scaled = 377
+[21:58:47]        y_inverted_scaled = 522
+[21:58:47] 🔍 DEBUG: normiert = (0.156, 0.429)
+[21:58:47]            x_scaled = 225, y_scaled = 385
+[21:58:47]        y_inverted_scaled = 514
+[21:58:47] 🔍 DEBUG: normiert = (0.171, 0.421)
+[21:58:47]            x_scaled = 245, y_scaled = 378
+[21:58:47]        y_inverted_scaled = 521
+[21:58:47] 🔍 DEBUG: normiert = (0.125, 0.667)
+[21:58:47]            x_scaled = 179, y_scaled = 600
+[21:58:47]        y_inverted_scaled = 299
+[21:58:47] 🔍 DEBUG: normiert = (0.114, 0.772)
+[21:58:47]            x_scaled = 164, y_scaled = 694
+[21:58:47]        y_inverted_scaled = 205
+[21:58:47] 🔍 DEBUG: normiert = (0.114, 0.817)
+[21:58:47]            x_scaled = 164, y_scaled = 735
+[21:58:47]        y_inverted_scaled = 164
+[21:58:47] 🔍 DEBUG: normiert = (0.117, 0.809)
+[21:58:47]            x_scaled = 168, y_scaled = 727
+[21:58:47]        y_inverted_scaled = 172
+[21:58:48] 🔍 DEBUG: normiert = (0.116, 0.810)
+[21:58:48]            x_scaled = 166, y_scaled = 729
+[21:58:48]        y_inverted_scaled = 170
+[21:58:48] 🔍 DEBUG: normiert = (0.116, 0.814)
+[21:58:48]            x_scaled = 166, y_scaled = 732
+[21:58:48]        y_inverted_scaled = 167
+[21:58:48] 🔍 DEBUG: normiert = (0.112, 0.841)
+[21:58:48]            x_scaled = 161, y_scaled = 757
+[21:58:48]        y_inverted_scaled = 142
+[21:58:48] 🔍 DEBUG: normiert = (0.111, 0.868)
+[21:58:48]            x_scaled = 159, y_scaled = 781
+[21:58:48]        y_inverted_scaled = 118
+[21:58:48] 🔍 DEBUG: normiert = (0.103, 0.880)
+[21:58:48]            x_scaled = 147, y_scaled = 791
+[21:58:48]        y_inverted_scaled = 108
+[21:58:48] 🔍 DEBUG: normiert = (0.113, 0.865)
+[21:58:48]            x_scaled = 163, y_scaled = 778
+[21:58:48]        y_inverted_scaled = 121
+[21:58:48] 🔍 DEBUG: normiert = (0.111, 0.894)
+[21:58:48]            x_scaled = 159, y_scaled = 804
+[21:58:48]        y_inverted_scaled = 95
+[21:58:48] 🔍 DEBUG: normiert = (0.110, 0.874)
+[21:58:48]            x_scaled = 157, y_scaled = 786
+[21:58:48]        y_inverted_scaled = 113
+[21:58:48] 🔍 DEBUG: normiert = (0.096, 0.913)
+[21:58:48]            x_scaled = 138, y_scaled = 822
+[21:58:48]        y_inverted_scaled = 77
+[21:58:48] 🔍 DEBUG: normiert = (0.103, 0.902)
+[21:58:48]            x_scaled = 147, y_scaled = 811
+[21:58:48]        y_inverted_scaled = 88
+[21:58:49] 🔍 DEBUG: normiert = (0.097, 0.889)
+[21:58:49]            x_scaled = 139, y_scaled = 799
+[21:58:49]        y_inverted_scaled = 100
+[21:58:49] 🔍 DEBUG: normiert = (0.105, 0.916)
+[21:58:49]            x_scaled = 150, y_scaled = 824
+[21:58:49]        y_inverted_scaled = 75
+[21:58:49] 🔍 DEBUG: normiert = (0.110, 0.918)
+[21:58:49]            x_scaled = 158, y_scaled = 826
+[21:58:49]        y_inverted_scaled = 73
+[21:58:49] 🔍 DEBUG: normiert = (0.139, 0.894)
+[21:58:49]            x_scaled = 199, y_scaled = 804
+[21:58:49]        y_inverted_scaled = 95
+[21:58:49] 🔍 DEBUG: normiert = (0.119, 0.916)
+[21:58:49]            x_scaled = 171, y_scaled = 824
+[21:58:49]        y_inverted_scaled = 75
+[21:58:49] 🔍 DEBUG: normiert = (0.176, 0.934)
+[21:58:49]            x_scaled = 253, y_scaled = 840
+[21:58:49]        y_inverted_scaled = 59
+[21:58:49] 🔍 DEBUG: normiert = (0.192, 0.962)
+[21:58:49]            x_scaled = 275, y_scaled = 866
+[21:58:49]        y_inverted_scaled = 33
+[21:58:49] 🔍 DEBUG: normiert = (0.181, 0.946)
+[21:58:49]            x_scaled = 260, y_scaled = 851
+[21:58:49]        y_inverted_scaled = 48
+[21:58:49] 🔍 DEBUG: normiert = (0.198, 0.942)
+[21:58:49]            x_scaled = 285, y_scaled = 848
+[21:58:49]        y_inverted_scaled = 51
+[21:58:49] 🔍 DEBUG: normiert = (0.203, 0.929)
+[21:58:49]            x_scaled = 292, y_scaled = 835
+[21:58:49]        y_inverted_scaled = 64
+[21:58:50] 🔍 DEBUG: normiert = (0.226, 0.945)
+[21:58:50]            x_scaled = 325, y_scaled = 850
+[21:58:50]        y_inverted_scaled = 49
+[21:58:50] 🔍 DEBUG: normiert = (0.212, 0.947)
+[21:58:50]            x_scaled = 305, y_scaled = 852
+[21:58:50]        y_inverted_scaled = 47
+[21:58:50] 🔍 DEBUG: normiert = (0.206, 0.963)
+[21:58:50]            x_scaled = 297, y_scaled = 866
+[21:58:50]        y_inverted_scaled = 33
+[21:58:50] 🔍 DEBUG: normiert = (0.215, 0.850)
+[21:58:50]            x_scaled = 309, y_scaled = 765
+[21:58:50]        y_inverted_scaled = 134
+[21:58:50] 🔍 DEBUG: normiert = (0.235, 0.793)
+[21:58:50]            x_scaled = 338, y_scaled = 714
+[21:58:50]        y_inverted_scaled = 185
+[21:58:50] 🔍 DEBUG: normiert = (0.253, 0.741)
+[21:58:50]            x_scaled = 364, y_scaled = 667
+[21:58:50]        y_inverted_scaled = 232
+[21:58:50] 🔍 DEBUG: normiert = (0.244, 0.667)
+[21:58:50]            x_scaled = 351, y_scaled = 600
+[21:58:50]        y_inverted_scaled = 299
+[21:58:50] 🔍 DEBUG: normiert = (0.257, 0.633)
+[21:58:50]            x_scaled = 369, y_scaled = 569
+[21:58:50]        y_inverted_scaled = 330
+[21:58:50] 🔍 DEBUG: normiert = (0.296, 0.559)
+[21:58:50]            x_scaled = 426, y_scaled = 503
+[21:58:50]        y_inverted_scaled = 396
+[21:58:50] 🔍 DEBUG: normiert = (0.288, 0.509)
+[21:58:50]            x_scaled = 414, y_scaled = 458
+[21:58:50]        y_inverted_scaled = 441
+[21:58:51] 🔍 DEBUG: normiert = (0.309, 0.488)
+[21:58:51]            x_scaled = 444, y_scaled = 439
+[21:58:51]        y_inverted_scaled = 460
+[21:58:51] 🔍 DEBUG: normiert = (0.329, 0.509)
+[21:58:51]            x_scaled = 474, y_scaled = 458
+[21:58:51]        y_inverted_scaled = 441
+[21:58:51] 🔍 DEBUG: normiert = (0.335, 0.591)
+[21:58:51]            x_scaled = 482, y_scaled = 532
+[21:58:51]        y_inverted_scaled = 367
+[21:58:51] 🔍 DEBUG: normiert = (0.354, 0.606)
+[21:58:51]            x_scaled = 509, y_scaled = 545
+[21:58:51]        y_inverted_scaled = 354
+[21:58:51] 🔍 DEBUG: normiert = (0.342, 0.586)
+[21:58:51]            x_scaled = 493, y_scaled = 527
+[21:58:51]        y_inverted_scaled = 372
+[21:58:51] 🔍 DEBUG: normiert = (0.340, 0.660)
+[21:58:51]            x_scaled = 489, y_scaled = 593
+[21:58:51]        y_inverted_scaled = 306
+[21:58:51] 🔍 DEBUG: normiert = (0.294, 0.752)
+[21:58:51]            x_scaled = 422, y_scaled = 676
+[21:58:51]        y_inverted_scaled = 223
+[21:58:51] 🔍 DEBUG: normiert = (0.276, 0.756)
+[21:58:51]            x_scaled = 398, y_scaled = 680
+[21:58:51]        y_inverted_scaled = 219
+[21:58:51] 🔍 DEBUG: normiert = (0.294, 0.768)
+[21:58:51]            x_scaled = 423, y_scaled = 690
+[21:58:51]        y_inverted_scaled = 209
+[21:58:51] 🔍 DEBUG: normiert = (0.280, 0.807)
+[21:58:51]            x_scaled = 403, y_scaled = 726
+[21:58:51]        y_inverted_scaled = 173
+[21:58:52] 🔍 DEBUG: normiert = (0.284, 0.803)
+[21:58:52]            x_scaled = 408, y_scaled = 723
+[21:58:52]        y_inverted_scaled = 176
+[21:58:52] 🔍 DEBUG: normiert = (0.310, 0.734)
+[21:58:52]            x_scaled = 447, y_scaled = 660
+[21:58:52]        y_inverted_scaled = 239
+[21:58:52] 🔍 DEBUG: normiert = (0.340, 0.634)
+[21:58:52]            x_scaled = 489, y_scaled = 570
+[21:58:52]        y_inverted_scaled = 329
+[21:58:52] 🔍 DEBUG: normiert = (0.383, 0.627)
+[21:58:52]            x_scaled = 551, y_scaled = 564
+[21:58:52]        y_inverted_scaled = 335
+[21:58:52] 🔍 DEBUG: normiert = (0.397, 0.596)
+[21:58:52]            x_scaled = 571, y_scaled = 536
+[21:58:52]        y_inverted_scaled = 363
+[21:58:52] 🔍 DEBUG: normiert = (0.373, 0.573)
+[21:58:52]            x_scaled = 536, y_scaled = 515
+[21:58:52]        y_inverted_scaled = 384
+[21:58:52] 🔍 DEBUG: normiert = (0.390, 0.669)
+[21:58:52]            x_scaled = 562, y_scaled = 601
+[21:58:52]        y_inverted_scaled = 298
+[21:58:52] 🔍 DEBUG: normiert = (0.416, 0.723)
+[21:58:52]            x_scaled = 598, y_scaled = 651
+[21:58:52]        y_inverted_scaled = 248
+[21:58:52] 🔍 DEBUG: normiert = (0.482, 0.706)
+[21:58:52]            x_scaled = 694, y_scaled = 634
+[21:58:52]        y_inverted_scaled = 265
+[21:58:52] 🔍 DEBUG: normiert = (0.519, 0.722)
+[21:58:52]            x_scaled = 747, y_scaled = 650
+[21:58:52]        y_inverted_scaled = 249
+[21:58:53] 🔍 DEBUG: normiert = (0.477, 0.741)
+[21:58:53]            x_scaled = 686, y_scaled = 667
+[21:58:53]        y_inverted_scaled = 232
+[21:58:53] 🔍 DEBUG: normiert = (0.556, 0.734)
+[21:58:53]            x_scaled = 801, y_scaled = 660
+[21:58:53]        y_inverted_scaled = 239
+[21:58:53] 🔍 DEBUG: normiert = (0.565, 0.726)
+[21:58:53]            x_scaled = 813, y_scaled = 653
+[21:58:53]        y_inverted_scaled = 246
+[21:58:53] 🔍 DEBUG: normiert = (0.592, 0.688)
+[21:58:53]            x_scaled = 852, y_scaled = 619
+[21:58:53]        y_inverted_scaled = 280
+[21:58:53] 🔍 DEBUG: normiert = (0.638, 0.670)
+[21:58:53]            x_scaled = 918, y_scaled = 603
+[21:58:53]        y_inverted_scaled = 296
+[21:58:53] 🔍 DEBUG: normiert = (0.643, 0.647)
+[21:58:53]            x_scaled = 926, y_scaled = 581
+[21:58:53]        y_inverted_scaled = 318
+[21:58:53] 🔍 DEBUG: normiert = (0.656, 0.645)
+[21:58:53]            x_scaled = 945, y_scaled = 580
+[21:58:53]        y_inverted_scaled = 319
+[21:58:53] 🔍 DEBUG: normiert = (0.662, 0.654)
+[21:58:53]            x_scaled = 952, y_scaled = 588
+[21:58:53]        y_inverted_scaled = 311
+[21:58:53] 🔍 DEBUG: normiert = (0.639, 0.572)
+[21:58:53]            x_scaled = 919, y_scaled = 514
+[21:58:53]        y_inverted_scaled = 385
+[21:58:53] 🔍 DEBUG: normiert = (0.609, 0.538)
+[21:58:53]            x_scaled = 877, y_scaled = 484
+[21:58:53]        y_inverted_scaled = 415
+[21:58:54] 🔍 DEBUG: normiert = (0.598, 0.493)
+[21:58:54]            x_scaled = 860, y_scaled = 443
+[21:58:54]        y_inverted_scaled = 456
+[21:58:54] 🔍 DEBUG: normiert = (0.595, 0.487)
+[21:58:54]            x_scaled = 857, y_scaled = 437
+[21:58:54]        y_inverted_scaled = 462
+[21:58:54] 🔍 DEBUG: normiert = (0.583, 0.469)
+[21:58:54]            x_scaled = 839, y_scaled = 422
+[21:58:54]        y_inverted_scaled = 477
+[21:58:54] 🔍 DEBUG: normiert = (0.582, 0.445)
+[21:58:54]            x_scaled = 837, y_scaled = 400
+[21:58:54]        y_inverted_scaled = 499
+[21:58:54] 🔍 DEBUG: normiert = (0.622, 0.471)
+[21:58:54]            x_scaled = 895, y_scaled = 423
+[21:58:54]        y_inverted_scaled = 476
+[21:58:54] 🔍 DEBUG: normiert = (0.630, 0.441)
+[21:58:54]            x_scaled = 906, y_scaled = 396
+[21:58:54]        y_inverted_scaled = 503
+[21:58:54] 🔍 DEBUG: normiert = (0.611, 0.424)
+[21:58:54]            x_scaled = 879, y_scaled = 381
+[21:58:54]        y_inverted_scaled = 518
+[21:58:54] 🔍 DEBUG: normiert = (0.631, 0.450)
+[21:58:54]            x_scaled = 908, y_scaled = 405
+[21:58:54]        y_inverted_scaled = 494
+[21:58:54] 🔍 DEBUG: normiert = (0.632, 0.484)
+[21:58:54]            x_scaled = 910, y_scaled = 435
+[21:58:54]        y_inverted_scaled = 464
+[21:58:54] 🔍 DEBUG: normiert = (0.625, 0.477)
+[21:58:54]            x_scaled = 900, y_scaled = 429
+[21:58:54]        y_inverted_scaled = 470
+[21:58:55] 🔍 DEBUG: normiert = (0.571, 0.491)
+[21:58:55]            x_scaled = 822, y_scaled = 442
+[21:58:55]        y_inverted_scaled = 457
+[21:58:55] 🔍 DEBUG: normiert = (0.502, 0.452)
+[21:58:55]            x_scaled = 722, y_scaled = 406
+[21:58:55]        y_inverted_scaled = 493
+[21:58:55] 🔍 DEBUG: normiert = (0.408, 0.483)
+[21:58:55]            x_scaled = 587, y_scaled = 435
+[21:58:55]        y_inverted_scaled = 464
+[21:58:55] 🔍 DEBUG: normiert = (0.405, 0.455)
+[21:58:55]            x_scaled = 582, y_scaled = 409
+[21:58:55]        y_inverted_scaled = 490
+[21:58:55] 🔍 DEBUG: normiert = (0.344, 0.459)
+[21:58:55]            x_scaled = 495, y_scaled = 412
+[21:58:55]        y_inverted_scaled = 487
+[21:58:55] 🔍 DEBUG: normiert = (0.296, 0.448)
+[21:58:55]            x_scaled = 426, y_scaled = 402
+[21:58:55]        y_inverted_scaled = 497
+[21:58:55] 🔍 DEBUG: normiert = (0.292, 0.479)
+[21:58:55]            x_scaled = 420, y_scaled = 431
+[21:58:55]        y_inverted_scaled = 468
+[21:58:55] 🔍 DEBUG: normiert = (0.292, 0.477)
+[21:58:55]            x_scaled = 420, y_scaled = 429
+[21:58:55]        y_inverted_scaled = 470
+[21:58:55] 🔍 DEBUG: normiert = (0.283, 0.468)
+[21:58:55]            x_scaled = 408, y_scaled = 421
+[21:58:55]        y_inverted_scaled = 478
+[21:58:55] 🔍 DEBUG: normiert = (0.323, 0.427)
+[21:58:55]            x_scaled = 465, y_scaled = 384
+[21:58:55]        y_inverted_scaled = 515
+[21:58:56] 🔍 DEBUG: normiert = (0.286, 0.429)
+[21:58:56]            x_scaled = 412, y_scaled = 386
+[21:58:56]        y_inverted_scaled = 513
+[21:58:56] 🔍 DEBUG: normiert = (0.314, 0.426)
+[21:58:56]            x_scaled = 451, y_scaled = 383
+[21:58:56]        y_inverted_scaled = 516
+[21:58:56] 🔍 DEBUG: normiert = (0.299, 0.425)
+[21:58:56]            x_scaled = 430, y_scaled = 382
+[21:58:56]        y_inverted_scaled = 517
+[21:58:56] 🔍 DEBUG: normiert = (0.310, 0.381)
+[21:58:56]            x_scaled = 445, y_scaled = 343
+[21:58:56]        y_inverted_scaled = 556
+[21:58:56] 🔍 DEBUG: normiert = (0.345, 0.381)
+[21:58:56]            x_scaled = 496, y_scaled = 342
+[21:58:56]        y_inverted_scaled = 557
+[21:58:56] 🔍 DEBUG: normiert = (0.319, 0.374)
+[21:58:56]            x_scaled = 459, y_scaled = 336
+[21:58:56]        y_inverted_scaled = 563
+[21:58:56] 🔍 DEBUG: normiert = (0.316, 0.377)
+[21:58:56]            x_scaled = 454, y_scaled = 339
+[21:58:56]        y_inverted_scaled = 560
+[21:58:56] 🔍 DEBUG: normiert = (0.339, 0.328)
+[21:58:56]            x_scaled = 487, y_scaled = 295
+[21:58:56]        y_inverted_scaled = 604
+[21:58:56] 🔍 DEBUG: normiert = (0.327, 0.317)
+[21:58:56]            x_scaled = 471, y_scaled = 285
+[21:58:56]        y_inverted_scaled = 614
+[21:58:56] 🔍 DEBUG: normiert = (0.318, 0.315)
+[21:58:56]            x_scaled = 457, y_scaled = 283
+[21:58:56]        y_inverted_scaled = 616
+[21:58:57] 🔍 DEBUG: normiert = (0.381, 0.329)
+[21:58:57]            x_scaled = 548, y_scaled = 296
+[21:58:57]        y_inverted_scaled = 603
+[21:58:57] 🔍 DEBUG: normiert = (0.393, 0.341)
+[21:58:57]            x_scaled = 566, y_scaled = 306
+[21:58:57]        y_inverted_scaled = 593
+[21:58:57] 🔍 DEBUG: normiert = (0.408, 0.344)
+[21:58:57]            x_scaled = 586, y_scaled = 309
+[21:58:57]        y_inverted_scaled = 590
+[21:58:57] 🔍 DEBUG: normiert = (0.379, 0.338)
+[21:58:57]            x_scaled = 545, y_scaled = 303
+[21:58:57]        y_inverted_scaled = 596
+[21:58:57] 🔍 DEBUG: normiert = (0.379, 0.323)
+[21:58:57]            x_scaled = 546, y_scaled = 290
+[21:58:57]        y_inverted_scaled = 609
+[21:58:57] 🔍 DEBUG: normiert = (0.395, 0.309)
+[21:58:57]            x_scaled = 569, y_scaled = 278
+[21:58:57]        y_inverted_scaled = 621
+[21:58:57] 🔍 DEBUG: normiert = (0.440, 0.321)
+[21:58:57]            x_scaled = 633, y_scaled = 288
+[21:58:57]        y_inverted_scaled = 611
+[21:58:57] 🔍 DEBUG: normiert = (0.399, 0.321)
+[21:58:57]            x_scaled = 574, y_scaled = 289
+[21:58:57]        y_inverted_scaled = 610
+[21:58:57] 🔍 DEBUG: normiert = (0.437, 0.317)
+[21:58:57]            x_scaled = 629, y_scaled = 285
+[21:58:57]        y_inverted_scaled = 614
+[21:58:57] 🔍 DEBUG: normiert = (0.445, 0.337)
+[21:58:57]            x_scaled = 640, y_scaled = 303
+[21:58:57]        y_inverted_scaled = 596
+[21:58:58] 🔍 DEBUG: normiert = (0.457, 0.318)
+[21:58:58]            x_scaled = 658, y_scaled = 285
+[21:58:58]        y_inverted_scaled = 614
+[21:58:58] 🔍 DEBUG: normiert = (0.490, 0.334)
+[21:58:58]            x_scaled = 705, y_scaled = 300
+[21:58:58]        y_inverted_scaled = 599
+[21:58:58] 🔍 DEBUG: normiert = (0.516, 0.363)
+[21:58:58]            x_scaled = 742, y_scaled = 326
+[21:58:58]        y_inverted_scaled = 573
+[21:58:58] 🔍 DEBUG: normiert = (0.521, 0.353)
+[21:58:58]            x_scaled = 749, y_scaled = 317
+[21:58:58]        y_inverted_scaled = 582
+[21:58:58] 🔍 DEBUG: normiert = (0.552, 0.361)
+[21:58:58]            x_scaled = 794, y_scaled = 324
+[21:58:58]        y_inverted_scaled = 575
+[21:58:58] 🔍 DEBUG: normiert = (0.566, 0.376)
+[21:58:58]            x_scaled = 815, y_scaled = 338
+[21:58:58]        y_inverted_scaled = 561
+[21:58:58] 🔍 DEBUG: normiert = (0.579, 0.383)
+[21:58:58]            x_scaled = 833, y_scaled = 344
+[21:58:58]        y_inverted_scaled = 555
+[21:58:58] 🔍 DEBUG: normiert = (0.594, 0.418)
+[21:58:58]            x_scaled = 856, y_scaled = 376
+[21:58:58]        y_inverted_scaled = 523
+[21:58:58] 🔍 DEBUG: normiert = (0.618, 0.436)
+[21:58:58]            x_scaled = 889, y_scaled = 392
+[21:58:58]        y_inverted_scaled = 507
+[21:58:58] 🔍 DEBUG: normiert = (0.649, 0.429)
+[21:58:58]            x_scaled = 934, y_scaled = 386
+[21:58:58]        y_inverted_scaled = 513
+[21:58:59] 🔍 DEBUG: normiert = (0.654, 0.440)
+[21:58:59]            x_scaled = 941, y_scaled = 395
+[21:58:59]        y_inverted_scaled = 504
+[21:58:59] 🔍 DEBUG: normiert = (0.663, 0.438)
+[21:58:59]            x_scaled = 954, y_scaled = 394
+[21:58:59]        y_inverted_scaled = 505
+[21:58:59] 🔍 DEBUG: normiert = (0.575, 0.426)
+[21:58:59]            x_scaled = 827, y_scaled = 383
+[21:58:59]        y_inverted_scaled = 516
+[21:58:59] 🔍 DEBUG: normiert = (0.371, 0.377)
+[21:58:59]            x_scaled = 534, y_scaled = 339
+[21:58:59]        y_inverted_scaled = 560
+[21:58:59] 🔍 DEBUG: normiert = (0.283, 0.371)
+[21:58:59]            x_scaled = 408, y_scaled = 334
+[21:58:59]        y_inverted_scaled = 565
+[21:58:59] 🔍 DEBUG: normiert = (0.226, 0.366)
+[21:58:59]            x_scaled = 325, y_scaled = 329
+[21:58:59]        y_inverted_scaled = 570
+[21:58:59] 🔍 DEBUG: normiert = (0.208, 0.377)
+[21:58:59]            x_scaled = 298, y_scaled = 339
+[21:58:59]        y_inverted_scaled = 560
+[21:58:59] 🔍 DEBUG: normiert = (0.185, 0.376)
+[21:58:59]            x_scaled = 266, y_scaled = 338
+[21:58:59]        y_inverted_scaled = 561
+[21:58:59] 🔍 DEBUG: normiert = (0.170, 0.377)
+[21:58:59]            x_scaled = 244, y_scaled = 339
+[21:58:59]        y_inverted_scaled = 560
+[21:58:59] 🔍 DEBUG: normiert = (0.178, 0.357)
+[21:58:59]            x_scaled = 256, y_scaled = 321
+[21:58:59]        y_inverted_scaled = 578
+[21:59:00] 🔍 DEBUG: normiert = (0.140, 0.636)
+[21:59:00]            x_scaled = 201, y_scaled = 572
+[21:59:00]        y_inverted_scaled = 327
+[21:59:00] 🔍 DEBUG: normiert = (0.115, 0.837)
+[21:59:00]            x_scaled = 165, y_scaled = 753
+[21:59:00]        y_inverted_scaled = 146
+[21:59:00] 🔍 DEBUG: normiert = (0.103, 0.899)
+[21:59:00]            x_scaled = 147, y_scaled = 808
+[21:59:00]        y_inverted_scaled = 91
+[21:59:00] 🔍 DEBUG: normiert = (0.091, 0.969)
+[21:59:00]            x_scaled = 131, y_scaled = 872
+[21:59:00]        y_inverted_scaled = 27
+[21:59:00] 🔍 DEBUG: normiert = (0.086, 0.932)
+[21:59:00]            x_scaled = 123, y_scaled = 838
+[21:59:00]        y_inverted_scaled = 61
+[21:59:00] 🔍 DEBUG: normiert = (0.091, 0.974)
+[21:59:00]            x_scaled = 130, y_scaled = 876
+[21:59:00]        y_inverted_scaled = 23
+[21:59:00] 🔍 DEBUG: normiert = (0.102, 0.948)
+[21:59:00]            x_scaled = 147, y_scaled = 853
+[21:59:00]        y_inverted_scaled = 46
+[21:59:00] 🔍 DEBUG: normiert = (0.109, 0.899)
+[21:59:00]            x_scaled = 157, y_scaled = 809
+[21:59:00]        y_inverted_scaled = 90

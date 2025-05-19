@@ -2,7 +2,7 @@ import pandas as pd
 import pyautogui
 
 # Original- und Zielauflösung
-OLD_W, OLD_H = 1920, 1080
+OLD_W, OLD_H = 2560, 1600
 NEW_W, NEW_H = pyautogui.size()
 
 

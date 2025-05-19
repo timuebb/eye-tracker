@@ -5,6 +5,7 @@ import numpy as np
 import tensorflow as tf
 import pyautogui
 from datetime import datetime
+import matplotlib.pyplot as plt
 from utils.camery_utils import find_internal_camera
 from utils.eye_utils import extract_eye_from_landmarks, estimate_head_pose
 
@@ -14,8 +15,7 @@ MODEL_PATH = os.path.join(BASE_DIR, "models", "fold1_dual_model.keras")
 model = tf.keras.models.load_model(MODEL_PATH)
 expects_pose = "head_pose" in [inp.name.split(":")[0] for inp in model.inputs]
 
-# camera_id = find_internal_camera()
-cap = cv2.VideoCapture(1)  # camera_id)
+cap = cv2.VideoCapture(1)
 
 
 def get_display_size():
@@ -24,7 +24,6 @@ def get_display_size():
 
 WINDOW_NAME = "Live-Prediction: Dual-Modell"
 IMG_SIZE = (64, 64)
-
 LEFT_EYE = [33, 133, 160, 159, 158, 157, 173, 153]
 RIGHT_EYE = [362, 263, 387, 386, 385, 384, 398, 382]
 
@@ -35,6 +34,8 @@ LOG_FILE = os.path.join(
 os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
 log_file = open(LOG_FILE, "w")
 
+predictions_log = []
+
 
 def log(msg):
     timestamp = datetime.now().strftime("%H:%M:%S")
@@ -44,7 +45,7 @@ def log(msg):
     log_file.flush()
 
 
-# Mediapipe Face Mesh Setup
+# Mediapipe Setup
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(
     static_image_mode=False,
@@ -58,6 +59,7 @@ log(f"Modell geladen: {MODEL_PATH}")
 log(f"Kopfpose erwartet: {expects_pose}")
 
 last_prediction = None
+prev_display_size = None
 
 
 def get_face_box(landmarks, image_shape):
@@ -70,8 +72,6 @@ def get_face_box(landmarks, image_shape):
     y_max = int(np.max(ys))
     return x_min, y_min, x_max - x_min, y_max - y_min
 
-
-prev_display_size = None
 
 while True:
     DISPLAY_W, DISPLAY_H = get_display_size()
@@ -101,7 +101,6 @@ while True:
         if left_eye is not None and right_eye is not None:
             input_left = np.expand_dims(left_eye, axis=0)
             input_right = np.expand_dims(right_eye, axis=0)
-
             inputs = {"left_eye": input_left, "right_eye": input_right}
 
             pose_info = ""
@@ -110,9 +109,16 @@ while True:
                 if pose is None:
                     log("⚠️ Kopfpose nicht bestimmbar – Frame übersprungen")
                     continue
-                yaw, pitch, roll = pose
-                inputs["head_pose"] = np.array([[yaw, pitch, roll]], dtype="float32")
-                pose_info = f"Yaw={yaw:.1f}°, Pitch={pitch:.1f}°, Roll={roll:.1f}°"
+
+                # pose = [yaw, pitch, roll, tx, ty, tz]
+                inputs["head_pose"] = np.expand_dims(pose.astype("float32"), axis=0)
+                yaw, pitch, roll, tx, ty, tz = pose
+
+                pose_info = (
+                    f"Yaw={yaw:.1f}°, Pitch={pitch:.1f}°, Roll={roll:.1f}° | "
+                    f"Tx={tx:.1f}, Ty={ty:.1f}, Tz={tz:.1f}"
+                )
+                log(f"🔍 DEBUG: head_pose + trans = {pose}")
 
             prediction = model.predict(inputs, verbose=0)[0]
 
@@ -120,12 +126,22 @@ while True:
                 prediction = 0.6 * prediction + 0.4 * last_prediction
             last_prediction = prediction
 
-            x_scaled = int(prediction[0] * DISPLAY_W)
-            y_scaled = int(prediction[1] * DISPLAY_H)
+            x_norm, y_norm = prediction
+            # 🔍 DEBUG: Bereich prüfen
+            if not (0 <= x_norm <= 1) or not (0 <= y_norm <= 1):
+                log(
+                    f"⚠️ WARNUNG: Normierte Koordinaten außerhalb von [0,1]: ({x_norm:.3f}, {y_norm:.3f})"
+                )
 
-            # log(
-            #    f"Vorhersage: x={prediction[0]:.3f}, y={prediction[1]:.3f} → Pixel: {x_scaled}, {y_scaled} {pose_info}"
-            # )
+            x_scaled = int(x_norm * DISPLAY_W)
+            y_scaled = int(y_norm * DISPLAY_H)
+            y_inverted = int((1 - y_norm) * DISPLAY_H)
+
+            log(f"🔍 DEBUG: normiert = ({x_norm:.3f}, {y_norm:.3f})")
+            log(f"           x_scaled = {x_scaled}, y_scaled = {y_scaled}")
+            log(f"       y_inverted_scaled = {y_inverted}")
+
+            predictions_log.append([x_norm, y_norm])
 
             display = np.ones((DISPLAY_H, DISPLAY_W, 3), dtype=np.uint8) * 255
             cv2.circle(display, (x_scaled, y_scaled), 20, (0, 0, 255), -1)

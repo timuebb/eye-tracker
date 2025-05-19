@@ -10,7 +10,7 @@ face_mesh = mp_face_mesh.FaceMesh(
 )
 
 # Kamera starten
-cap = cv2.VideoCapture(0)  # ggf. 1, wenn du mehrere Kameras hast
+cap = cv2.VideoCapture(1)  # ggf. 1, wenn du mehrere Kameras hast
 
 # Auge-Landmark-Indizes
 LEFT_EYE = [33, 133]

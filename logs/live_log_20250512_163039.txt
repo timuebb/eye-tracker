@@ -1,0 +1,3 @@
+[16:30:39] Modell geladen: /Users/timadmin/Dokumente/AppsProgramming/eye-tracker-test-data/models/fold1_dual_model.keras
+[16:30:39] Kopfpose erwartet: True
+[16:30:39] Neue Displaygröße erkannt: 1440x900
